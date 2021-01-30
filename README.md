@@ -64,14 +64,18 @@ Download the image and annotation data in the directory `BDD100K`:
 ## Environment
 
 ## Model
-- Tiny CSPdarknet53
+- Tiny CSPdarknet53 - ResBlock_body
 <p align="center">
     <img src="images/tiny_residual_block.PNG", width="480", height='720'>
-
 
 - Tiny YoloV4
 <p align="center">
       <img src="images/tiny_yolov4.PNG", width="720", height='720'>
+
+- YoloV4
+<p align="center">
+      <img src="images/yolov4.PNG", width="480", height='1280'>
+
 
 ## Performance
 
