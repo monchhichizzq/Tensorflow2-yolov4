@@ -6,9 +6,9 @@
 1. [Introduction](#Introduction)
 2. [Table](#Table)
 3. [Dataset](#Dataset)
-4. [Environment](#Environment)
+4. [Model](#Model)
 5. [Performance](#Preformance)
-6. [Run steps](#Run steps)
+6. [Run](#Run)
 7. [Results](#Results)
 8. [Demo](#Demo)
 
@@ -63,9 +63,19 @@ Download the image and annotation data in the directory `BDD100K`:
 
 ## Environment
 
+## Model
+- Tiny CSPdarknet53
+<p align="center">
+    <img src="images/tiny_residual_block.PNG", width="480", height='720'>
+
+
+- Tiny YoloV4
+<p align="center">
+      <img src="images/tiny_yolov4.PNG", width="720", height='720'>
+
 ## Performance
 
-## Run steps：
+## Run 
 
 1. Split the dataset for train, test, validation
 

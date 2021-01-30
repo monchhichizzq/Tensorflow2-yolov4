@@ -4,48 +4,34 @@
 # @FileName: train.py
 # @Software: PyCharm
 
-
+# Opensource libs
 import os
 import numpy as np
+
+# Tensorflow
 import tensorflow as tf
 import tensorflow.keras.backend as K
 from tensorflow.keras.layers import Input, Lambda
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import TensorBoard, ReduceLROnPlateau, EarlyStopping
-from Model.yolov4 import yolo_body
-from Loss.loss import yolo_loss
-from Callbacks.checkpoints import ModelCheckpoint
-from Callbacks.CosineDecay import WarmUpCosineDecayScheduler
-from Preprocess.data_loader import Kitti_Yolo_DataGenerator
-# from utils.utils import get_random_data, get_random_data_with_Mosaic, rand, WarmUpCosineDecayScheduler, ModelCheckpoint
-from Callbacks.MeanAP_Callbacks import VOC2012mAP_Callback
-from Loss.loss import Yolo_loss
-
-
-
-# ---------------------------------------------------#
-#   获得类和先验框
-# ---------------------------------------------------#
-def get_classes(classes_path):
-    '''loads the classes'''
-    with open(classes_path) as f:
-        class_names = f.readlines()
-    class_names = [c.strip() for c in class_names]
-    return class_names
-
-
-def get_anchors(anchors_path):
-    '''loads the anchors from a file'''
-    with open(anchors_path) as f:
-        anchors = f.readline()
-    anchors = [float(x) for x in anchors.split(',')]
-    return np.array(anchors).reshape(-1, 2)
-
-
 gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
 for gpu in gpus:
     tf.config.experimental.set_memory_growth(gpu, True)
+
+# Model
+from Models.yolov4 import yolo_body
+
+# Loss
+from Loss.loss import yolo_loss
+
+# Callbacks
+from Callbacks.checkpoints import ModelCheckpoint
+from Callbacks.CosineDecay import WarmUpCosineDecayScheduler
+from Preprocess.data_loader import Kitti_Yolo_DataGenerator
+from Callbacks.MeanAP_Callbacks import VOC2012mAP_Callback
+from Loss.loss import Yolo_loss
+
 
 
 input_shape = (160, 480, 3)

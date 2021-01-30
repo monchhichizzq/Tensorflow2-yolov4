@@ -8,7 +8,6 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger('voc2txt')
 logger.setLevel(logging.DEBUG)
 
-
 # 改annotations
 
 # python3 voc2txt_annotation.py -name bdd100k_obj -input_dir D:/BDD100K/ -save data_txt

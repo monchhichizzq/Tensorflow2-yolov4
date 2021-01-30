@@ -1,3 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 .idea
+*.h5
+yolov4.pptx
+~$yolov4.pptx

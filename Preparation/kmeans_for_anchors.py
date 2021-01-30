@@ -10,7 +10,7 @@ from tqdm import tqdm
 def parse_arguments():
     parser = argparse.ArgumentParser(description='This a script using K-means to generate the anchors for the target dataset')
     parser.add_argument('-size', default=(416, 416), help="Input image size", action="store_true")
-    parser.add_argument('-anchors_num',default=9, help="Proposed anchor numbers", action="store_true")
+    parser.add_argument('-anchors_num',default=9, help="Proposed anchor numbers", action="store_true") #9
     parser.add_argument('-path', default='D:/BDD100K/Annotations_18/train', help="Read dataset annotations", action="store_true")
     parser.add_argument('-save_path', default="data_txt/BDD100K_yolov4_anchors_416_416.txt", help="Txt file",
                         action="store_true")
