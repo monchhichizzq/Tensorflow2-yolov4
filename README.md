@@ -74,7 +74,7 @@ Download the image and annotation data in the directory `BDD100K`:
 
 - YoloV4
 <p align="center">
-      <img src="images/yolov4.PNG", width="480", height='1280'>
+      <img src="images/yolov4.png", width="480", height='1280'>
 
 
 ## Performance
