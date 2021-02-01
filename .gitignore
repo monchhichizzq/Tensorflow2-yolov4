@@ -5,3 +5,8 @@ __pycache__/
 yolov4.pptx
 ~$yolov4.pptx
 yolov4.pdf
+yolov4_loss.pptx
+logs/
+input
+Demo/
+results/

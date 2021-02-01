@@ -127,7 +127,7 @@ class yolov4:
         P3 = self.make_five_convs(P3, 128, 'module_2')
 
         P3_output = self.DarknetConv2D_BN_Leaky(P3, '12', filters=256, kernel_size=(3, 3))
-        P3_output = self.DarknetConv2D(P3_output, '13', filters=num_anchors * (num_classes + 5), kernel_size=(1, 1))
+        P3_output = self.DarknetConv2D(P3_output, '13', filters=self.num_anchors * (self.num_classes + 5), kernel_size=(1, 1))
 
         # 38x38 output
         P3_downsample = ZeroPadding2D(((1, 0), (1, 0)))(P3)
@@ -136,7 +136,7 @@ class yolov4:
         P4 = self.make_five_convs(P4, 256, 'module_3')
 
         P4_output = self.DarknetConv2D_BN_Leaky(P4, '15', filters=512, kernel_size=(3, 3))
-        P4_output = self.DarknetConv2D(P4_output, '16', filters=num_anchors * (num_classes + 5), kernel_size=(1, 1))
+        P4_output = self.DarknetConv2D(P4_output, '16', filters=self.num_anchors * (self.num_classes + 5), kernel_size=(1, 1))
 
         # 19x19 output
         P4_downsample = ZeroPadding2D(((1, 0), (1, 0)))(P4)
@@ -145,7 +145,11 @@ class yolov4:
         P5 = self.make_five_convs(P5, 512, 'module_4')
 
         P5_output = self.DarknetConv2D_BN_Leaky(P5, '18', filters=1024, kernel_size=(3, 3))
-        P5_output = self.DarknetConv2D(P5_output, '19', filters=num_anchors * (num_classes + 5), kernel_size=(1, 1))
+        P5_output = self.DarknetConv2D(P5_output, '19', filters=self.num_anchors * (self.num_classes + 5), kernel_size=(1, 1))
+
+        # P5_output = tf.cast(P5_output, dtype=tf.float32)
+        # P4_output = tf.cast(P4_output, dtype=tf.float32)
+        # P3_output = tf.cast(P3_output, dtype=tf.float32)
 
         prediction = [P5_output, P4_output, P3_output]
 

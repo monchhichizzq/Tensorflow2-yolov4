@@ -23,18 +23,21 @@ def parse_arguments():
 
 def convert_annotation(image_id, list_file, image_set, input_dir_path):
     # print(os.path.join(input_dir_path, 'Annotations/%s.xml'%(image_id)))
-    in_file = open(os.path.join(input_dir_path, 'Annotations18/%s/%s.xml'%(image_set, image_id)))
+    in_file = open(os.path.join(input_dir_path, 'Annotations/%s.xml'%(image_id)))
+    print(in_file)
     tree=ET.parse(in_file)
     root = tree.getroot()
-    list_file.write(os.path.join(current_path, input_dir_path, 'images/100k/%s/%s.jpg'%(image_set, image_id)))
+    list_file.write(os.path.join(current_path, input_dir_path, 'JPEGImages/%s.jpg'%(image_id)))
     for obj in root.iter('object'):
         difficult = obj.find('difficult').text
+
         cls = obj.find('name').text
         if cls not in classes or int(difficult)==1:
             continue
         cls_id = classes.index(cls)
         xmlbox = obj.find('bndbox')
         b = (int(xmlbox.find('xmin').text), int(xmlbox.find('ymin').text), int(xmlbox.find('xmax').text), int(xmlbox.find('ymax').text))
+        print(" " + ",".join([str(a) for a in b]) + ',' + str(cls_id))
         list_file.write(" " + ",".join([str(a) for a in b]) + ',' + str(cls_id))
 
     list_file.write('\n')
@@ -57,7 +60,7 @@ if __name__=='__main__':
     save_path = args.save
     os.makedirs(save_path, exist_ok=True)
     # classes = ['rider', 'car', 'bike', 'person', 'train', 'traffic light', 'motor', 'bus', 'truck', 'traffic sign']
-    classes = ['mask', 'no_mask']
+    classes = ['face', 'face_mask']
 
     # Train/Val
     # trainval_sets=[(args.name, 'train'), (args.name, 'trainval'), (args.name, 'val')]

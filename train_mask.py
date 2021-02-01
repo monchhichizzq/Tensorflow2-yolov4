@@ -34,7 +34,7 @@ from Loss.yolo_loss import yolo_loss
 from Callbacks.checkpoints import ModelCheckpoint
 from Callbacks.CosineDecay import WarmUpCosineDecayScheduler
 from Preprocess.data_loader import Kitti_Yolo_DataGenerator
-from Callbacks.MeanAP_Callbacks import VOC2012mAP_Callback
+from Callbacks.mAP_yolo_Callbacks import VOC2012mAP_Callback
 
 # utils
 from Utils.utils import get_classes, get_anchors
@@ -64,18 +64,27 @@ config = {'training': True,
           'add_bn': True,
 
           # Weights
-          'load_weights': False,
-          'weights_path' : 'logs/ep161-loss21.142-val_loss12.810.h5',
+          'load_weights': True,
+          'weights_path' : 'logs/yolov4/mask_recog/ep039-loss14.628-val_loss8.601.h5',
 
           # checkpoints
           'save_best_only': False,
           'save_weights_only': True,
+          'log_dir':'logs/yolov4/mask_recog/',
+
+          # MAP
+          'map_plot':True,
+          'map_command_line': 'python Callbacks/get_map.py',
+
 
           # Path
-          'data_path': 'D:/BDD100K/',
+          'data_path': 'E:/mask_detection/face_mask',
           'annotation_path': 'Preparation/data_txt',
-          'classes_path': 'Preparation/data_txt/bdd_classes18.txt',
-          'anchors_path': 'Preparation/data_txt/BDD100K_yolov4_anchors_416_416.txt'
+          'anno_train_txt': 'face_mask_train.txt',
+          'anno_val_txt': 'face_mask_val.txt',
+          'classes_path': 'Preparation/data_txt/mask_classes.txt',
+          'anchors_path': 'Preparation/data_txt/Mask_yolov4_anchors_416_416.txt',
+
 
 }
 
@@ -86,6 +95,8 @@ train_params = {'train': True,
                 'mosaic': config['mosaic'],
                 'data_path': config['data_path'],
                 'annotation_path': config['annotation_path'],
+                'anno_train_txt':config['anno_train_txt'],
+                'anno_val_txt': config['anno_val_txt'],
                 'classes_path': config['classes_path'],
                 'anchors_path': config['anchors_path'],
                 'plot': config['plot']}
@@ -98,9 +109,12 @@ val_params = {'train': False,
               'mosaic': False,
               'data_path': config['data_path'],
               'annotation_path': config['annotation_path'],
+              'anno_train_txt': config['anno_train_txt'],
+              'anno_val_txt': config['anno_val_txt'],
               'classes_path': config['classes_path'],
               'anchors_path': config['anchors_path'],
-              'plot': config['plot']}
+              'plot': False}
+              # 'plot': config['plot']}
 
 val_generator = Kitti_Yolo_DataGenerator(**val_params)
 
@@ -113,8 +127,8 @@ if __name__ == "__main__":
         policy = mixed_precision.Policy('mixed_float16')
         mixed_precision.set_policy(policy)
 
-    logger.info('Compute dtype: %s' % policy.compute_dtype)
-    logger.info('Variable dtype: %s' % policy.variable_dtype)
+        logger.info('Compute dtype: %s' % policy.compute_dtype)
+        logger.info('Variable dtype: %s' % policy.variable_dtype)
 
     data_path = config['data_path']
     classes_path = config['classes_path']
@@ -180,23 +194,43 @@ if __name__ == "__main__":
     logger.info('Output {}.'.format(model.output))
 
     # save
-    log_dir = os.path.join("logs/tiny_yolov4_{}".format(config['tiny-yolov4']))
+    log_dir = config['log_dir']
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
 
     # 训练参数设置
     logging = TensorBoard(log_dir=log_dir)
+    # checkpoint = ModelCheckpoint(log_dir + "/ep{epoch:03d}-loss{loss:.3f}-val_loss{val_loss:.3f}-mAP{mAP:.2f}.h5",
+    #                              save_weights_only=config['save_weights_only'],
+    #                              save_best_only=config['save_best_only'],
+    #                              period=1)
     checkpoint = ModelCheckpoint(log_dir + "/ep{epoch:03d}-loss{loss:.3f}-val_loss{val_loss:.3f}.h5",
-                                 save_weights_only=config['save_weights_only'], save_best_only=config['save_best_only'], period=1)
+                                 save_weights_only=config['save_weights_only'],
+                                 save_best_only=config['save_best_only'],
+                                 period=1)
 
     # early_stopping = EarlyStopping(min_delta=0, patience=50, verbose=1)
 
-    # map_callbacks = VOC2012mAP_Callback(data_path,
-    #                                     visual=False,
-    #                                     command_line="python Callbacks/get_map.py")
+
+
+    map_config = {'data_path': config['data_path'],
+                  'weight_path': config['weights_path'],
+                  'classes_path': config['classes_path'],
+                  'anchors_path': config['anchors_path'],
+
+                  'add_bias' : config['add_bias'],
+                  'add_bn': config['add_bn'],
+
+                  'visual': config['map_plot'],
+                  'command_line': config['map_command_line']}
+
+    map_callbacks = VOC2012mAP_Callback(**map_config)
+
+
     reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=20, verbose=1)
 
-    train_callbacks = [reduce_lr]
+    train_callbacks = [map_callbacks, checkpoint, reduce_lr]
+    val_callbacks = [map_callbacks]
 
 
     def check_layer_dtype(model):
@@ -206,17 +240,23 @@ if __name__ == "__main__":
             logger.info('{} - Input: {} - Output: {}'.format(layer.name, input_type, output_type))
 
 
+    learning_rate_base = config['lr']
+
+    model.compile(optimizer=Adam(learning_rate_base), loss={'yolo_loss': lambda y_true, y_pred: y_pred})
+
     if config['training']:
-
-        learning_rate_base = config['lr']
-        model.compile(optimizer=Adam(learning_rate_base), loss={'yolo_loss': lambda y_true, y_pred: y_pred})
-
         check_layer_dtype(model)
 
         logger.info('Train on {} samples, val on {} samples, with batch size {}.'.format(num_train, num_val, config['batch_size']))
+
+
         model.fit(train_generator,
                   validation_data=val_generator,
                   epochs=config['epochs'],
-                  verbose=1)
-                  # callbacks=train_callbacks)
+                  verbose=2,
+                  callbacks=train_callbacks)
+
+    else:
+        model.predict(val_generator, verbose=1, callbacks=val_callbacks)
+
 

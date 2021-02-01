@@ -94,13 +94,15 @@ class Data_augmentation_with_Mosaic():
         self.h, self.w = input_shape
         self.min_offset_x = 0.4
         self.min_offset_y = 0.4
-        self.scale_low = 1 - min(self.min_offset_x, self.min_offset_y)
-        self.scale_high = self.scale_low + 0.2
+        self.scale_low = 1 - min(self.min_offset_x, self.min_offset_y)- 0.3# 改动
+        self.scale_high = self.scale_low + 0.2 + 0.6# 改动
+        # print(self.scale_low, self.scale_high)
+
 
         self.max_boxes = max_boxes
-        self.hue = .1
-        self.sat = 1.5
-        self.val = 1.5
+        self.hue = hue
+        self.sat = sat
+        self.val = val
 
         self.place_x = [0, 0, int(self.w * self.min_offset_x), int(self.w * self.min_offset_x)]
         self.place_y = [0, int(self.h * self.min_offset_y), int(self.h * self.min_offset_y), 0]

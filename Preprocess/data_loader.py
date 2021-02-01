@@ -33,6 +33,8 @@ class Kitti_Yolo_DataGenerator(Sequence):
 
         self.data_path = kwargs.get('data_path', 'H:/Applications/Kitti_dataset/kitti_voc/')
         self.annotation_path = kwargs.get('annotation_path', 'Preparation/data_txt')
+        self.anno_train_txt = kwargs.get('anno_train_txt', 'bdd100k_obj_train.txt')
+        self.anno_val_txt = kwargs.get('anno_val_txt', 'bdd100k_obj_train.txt')
 
         self.model_image_size = kwargs.get('input_shape', (160, 480, 3))
         self.input_shape = (self.model_image_size[0], self.model_image_size[1])
@@ -53,13 +55,13 @@ class Kitti_Yolo_DataGenerator(Sequence):
         if train:
             self.shuffle = True
             # self.image_ids = open(os.path.join(self.data_path, 'ImageSets/Main/trainval.txt')).read().strip().split()
-            self.annotation_lines = open(os.path.join(self.annotation_path, 'bdd100k_obj_train.txt')).readlines()
+            self.annotation_lines = open(os.path.join(self.annotation_path, self.anno_train_txt)).readlines()
             self.num_train = len(self.annotation_lines)
             print('Num train: ', len(self.annotation_lines))
         else:
             self.shuffle = False
             # self.image_ids = open(os.path.join(self.data_path, 'ImageSets/Main/test.txt')).read().strip().split()
-            self.annotation_lines = open(os.path.join(self.annotation_path, 'bdd100k_obj_val.txt')).readlines()
+            self.annotation_lines = open(os.path.join(self.annotation_path, self.anno_val_txt)).readlines()
             self.num_val = len(self.annotation_lines)
             print('Num validation: ', len(self.annotation_lines))
 
@@ -80,7 +82,7 @@ class Kitti_Yolo_DataGenerator(Sequence):
         # Generate indexes of the batch
         indexes = self.indexes[index * self.batch_size:(index + 1) * self.batch_size]
 
-        mosaic_execution = np.random.rand() < .5
+        mosaic_execution = np.random.rand() < 1.5 # 改动
 
         # print(self.mosaic, mosaic_execution, not self.train_mode)
 

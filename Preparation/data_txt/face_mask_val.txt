@@ -1,0 +1,950 @@
+E:/mask_detection/face_mask/JPEGImages/test_00000208.jpg 101,59,155,127,1
+E:/mask_detection/face_mask/JPEGImages/test_00003093.jpg 423,104,681,465,1
+E:/mask_detection/face_mask/JPEGImages/test_00004021.jpg 314,202,505,457,1
+E:/mask_detection/face_mask/JPEGImages/test_00003377.jpg 200,65,284,169,0
+E:/mask_detection/face_mask/JPEGImages/test_00002480.jpg 187,101,252,184,1 56,99,133,205,0
+E:/mask_detection/face_mask/JPEGImages/test_00001300.jpg 475,54,550,182,0
+E:/mask_detection/face_mask/JPEGImages/test_00001746.jpg 138,105,332,383,1
+E:/mask_detection/face_mask/JPEGImages/test_00004891.jpg 93,119,228,282,1
+E:/mask_detection/face_mask/JPEGImages/test_00002407.jpg 212,162,401,394,0
+E:/mask_detection/face_mask/JPEGImages/test_00001668.jpg 123,131,203,272,1 106,157,172,298,1
+E:/mask_detection/face_mask/JPEGImages/test_00003762.jpg 99,37,147,89,0 445,190,491,253,0
+E:/mask_detection/face_mask/JPEGImages/test_00004830.jpg 150,176,424,525,1
+E:/mask_detection/face_mask/JPEGImages/test_00004923.jpg 197,90,424,347,1
+E:/mask_detection/face_mask/JPEGImages/test_00001207.jpg 264,1,460,295,0 103,17,249,233,1
+E:/mask_detection/face_mask/JPEGImages/test_00004431.jpg 255,62,307,116,1 415,115,463,179,0 62,120,95,164,0
+E:/mask_detection/face_mask/JPEGImages/test_00001407.jpg 199,67,584,562,0
+E:/mask_detection/face_mask/JPEGImages/test_00002601.jpg 399,119,656,520,1
+E:/mask_detection/face_mask/JPEGImages/test_00001003.jpg 12,14,94,126,1
+E:/mask_detection/face_mask/JPEGImages/test_00000984.jpg 244,139,319,221,1
+E:/mask_detection/face_mask/JPEGImages/test_00004634.jpg 28,21,144,166,1
+E:/mask_detection/face_mask/JPEGImages/test_00003651.jpg 294,79,445,267,1
+E:/mask_detection/face_mask/JPEGImages/test_00000762.jpg 244,161,565,586,1
+E:/mask_detection/face_mask/JPEGImages/test_00003104.jpg 315,264,538,558,0
+E:/mask_detection/face_mask/JPEGImages/test_00000884.jpg 87,106,126,155,0 294,82,341,130,0
+E:/mask_detection/face_mask/JPEGImages/test_00004796.jpg 86,132,151,227,1 414,45,480,130,1
+E:/mask_detection/face_mask/JPEGImages/test_00001331.jpg 426,211,455,241,1 179,63,308,230,0
+E:/mask_detection/face_mask/JPEGImages/test_00000083.jpg 483,241,571,345,1
+E:/mask_detection/face_mask/JPEGImages/test_00004367.jpg 201,35,467,413,1
+E:/mask_detection/face_mask/JPEGImages/test_00002063.jpg 329,173,453,430,1
+E:/mask_detection/face_mask/JPEGImages/test_00000174.jpg 182,153,213,197,1
+E:/mask_detection/face_mask/JPEGImages/test_00001335.jpg 268,15,495,367,1
+E:/mask_detection/face_mask/JPEGImages/test_00001752.jpg 351,179,500,374,0
+E:/mask_detection/face_mask/JPEGImages/test_00000048.jpg 585,145,680,298,1 146,177,259,337,1
+E:/mask_detection/face_mask/JPEGImages/test_00002113.jpg 319,104,435,370,1
+E:/mask_detection/face_mask/JPEGImages/test_00002711.jpg 60,89,178,254,1
+E:/mask_detection/face_mask/JPEGImages/test_00002473.jpg 80,79,688,857,1
+E:/mask_detection/face_mask/JPEGImages/test_00003179.jpg 734,124,949,405,0 115,133,342,416,0
+E:/mask_detection/face_mask/JPEGImages/test_00002392.jpg 240,249,527,499,1
+E:/mask_detection/face_mask/JPEGImages/test_00004738.jpg 297,263,428,423,1 291,45,433,216,1 65,256,204,423,1 61,31,209,213,1
+E:/mask_detection/face_mask/JPEGImages/test_00003391.jpg 161,116,226,227,0 216,134,268,228,0
+E:/mask_detection/face_mask/JPEGImages/test_00003121.jpg 18,4,398,433,1
+E:/mask_detection/face_mask/JPEGImages/test_00003754.jpg 162,76,220,161,0
+E:/mask_detection/face_mask/JPEGImages/test_00001436.jpg 464,31,521,112,0 368,136,421,220,1
+E:/mask_detection/face_mask/JPEGImages/test_00000728.jpg 196,95,261,193,1
+E:/mask_detection/face_mask/JPEGImages/test_00004289.jpg 203,85,403,459,0
+E:/mask_detection/face_mask/JPEGImages/test_00002876.jpg 489,283,679,493,1 238,160,428,398,1
+E:/mask_detection/face_mask/JPEGImages/test_00003947.jpg 274,165,398,330,0
+E:/mask_detection/face_mask/JPEGImages/test_00000983.jpg 258,113,431,324,1
+E:/mask_detection/face_mask/JPEGImages/test_00000684.jpg 329,130,425,301,1
+E:/mask_detection/face_mask/JPEGImages/test_00004448.jpg 411,1,530,149,1
+E:/mask_detection/face_mask/JPEGImages/test_00002875.jpg 177,197,291,338,0
+E:/mask_detection/face_mask/JPEGImages/test_00004713.jpg 117,51,218,181,1
+E:/mask_detection/face_mask/JPEGImages/test_00000152.jpg 138,36,187,97,1
+E:/mask_detection/face_mask/JPEGImages/test_00003275.jpg 156,113,383,472,0
+E:/mask_detection/face_mask/JPEGImages/test_00004827.jpg 168,43,264,167,1
+E:/mask_detection/face_mask/JPEGImages/test_00004336.jpg 292,104,668,622,1
+E:/mask_detection/face_mask/JPEGImages/test_00000244.jpg 81,37,136,108,0
+E:/mask_detection/face_mask/JPEGImages/test_00004395.jpg 291,98,391,277,0 86,29,225,176,0 235,173,292,284,0
+E:/mask_detection/face_mask/JPEGImages/test_00004184.jpg 184,52,272,180,0
+E:/mask_detection/face_mask/JPEGImages/test_00002753.jpg 54,308,106,372,1 56,46,140,164,1
+E:/mask_detection/face_mask/JPEGImages/test_00001749.jpg 246,50,319,151,1
+E:/mask_detection/face_mask/JPEGImages/test_00004834.jpg 211,172,315,332,1
+E:/mask_detection/face_mask/JPEGImages/test_00000732.jpg 495,367,539,429,0 157,337,205,407,0 278,324,338,405,1 645,272,682,386,0
+E:/mask_detection/face_mask/JPEGImages/test_00004224.jpg 364,221,463,334,1 448,88,522,180,1 718,292,767,405,1
+E:/mask_detection/face_mask/JPEGImages/test_00000495.jpg 426,225,622,479,1
+E:/mask_detection/face_mask/JPEGImages/test_00002431.jpg 470,310,675,580,1 139,191,366,525,1
+E:/mask_detection/face_mask/JPEGImages/test_00000843.jpg 157,184,205,252,1 58,133,128,231,0 298,124,355,208,1 497,172,550,246,0 379,202,421,266,1
+E:/mask_detection/face_mask/JPEGImages/test_00002071.jpg 408,128,671,449,0
+E:/mask_detection/face_mask/JPEGImages/test_00004279.jpg 85,290,208,480,1 355,262,400,314,1
+E:/mask_detection/face_mask/JPEGImages/test_00000621.jpg 756,342,1183,754,1
+E:/mask_detection/face_mask/JPEGImages/test_00001382.jpg 127,96,552,571,1
+E:/mask_detection/face_mask/JPEGImages/test_00002174.jpg 162,72,260,191,1 493,96,591,216,0
+E:/mask_detection/face_mask/JPEGImages/test_00004774.jpg 122,96,535,664,1
+E:/mask_detection/face_mask/JPEGImages/test_00004472.jpg 316,34,389,134,1 498,29,574,127,1
+E:/mask_detection/face_mask/JPEGImages/test_00000878.jpg 325,357,643,854,1
+E:/mask_detection/face_mask/JPEGImages/test_00003156.jpg 34,52,144,188,1
+E:/mask_detection/face_mask/JPEGImages/test_00002188.jpg 256,147,601,574,1
+E:/mask_detection/face_mask/JPEGImages/test_00003637.jpg 403,61,532,235,0
+E:/mask_detection/face_mask/JPEGImages/test_00002708.jpg 310,357,375,467,1 697,70,814,238,1
+E:/mask_detection/face_mask/JPEGImages/test_00004792.jpg 184,114,336,334,1
+E:/mask_detection/face_mask/JPEGImages/test_00000694.jpg 441,125,527,241,1 726,170,802,263,1
+E:/mask_detection/face_mask/JPEGImages/test_00000921.jpg 254,127,418,317,0
+E:/mask_detection/face_mask/JPEGImages/test_00002617.jpg 470,412,658,641,1
+E:/mask_detection/face_mask/JPEGImages/test_00001283.jpg 163,219,502,701,0
+E:/mask_detection/face_mask/JPEGImages/test_00001949.jpg 202,120,263,198,1
+E:/mask_detection/face_mask/JPEGImages/test_00002053.jpg 346,24,541,268,1
+E:/mask_detection/face_mask/JPEGImages/test_00001138.jpg 464,469,639,682,1 501,65,650,313,1 92,508,301,792,1 751,289,799,367,1
+E:/mask_detection/face_mask/JPEGImages/test_00001115.jpg 34,37,105,127,1
+E:/mask_detection/face_mask/JPEGImages/test_00000158.jpg 177,54,233,117,1 60,30,114,94,1
+E:/mask_detection/face_mask/JPEGImages/test_00002830.jpg 133,34,427,421,1
+E:/mask_detection/face_mask/JPEGImages/test_00002217.jpg 189,272,224,323,1
+E:/mask_detection/face_mask/JPEGImages/test_00000190.jpg 83,114,126,184,1
+E:/mask_detection/face_mask/JPEGImages/test_00001050.jpg 104,44,341,373,1
+E:/mask_detection/face_mask/JPEGImages/test_00002311.jpg 303,60,435,260,1
+E:/mask_detection/face_mask/JPEGImages/test_00004424.jpg 281,113,375,226,1
+E:/mask_detection/face_mask/JPEGImages/test_00001848.jpg 391,50,449,131,1 293,90,349,164,1 246,18,303,91,1 179,94,234,157,1
+E:/mask_detection/face_mask/JPEGImages/test_00003228.jpg 129,165,253,349,1
+E:/mask_detection/face_mask/JPEGImages/test_00004859.jpg 309,49,427,204,1
+E:/mask_detection/face_mask/JPEGImages/test_00001497.jpg 96,142,456,670,1
+E:/mask_detection/face_mask/JPEGImages/test_00001622.jpg 236,51,296,119,0
+E:/mask_detection/face_mask/JPEGImages/test_00001065.jpg 1,37,100,186,0
+E:/mask_detection/face_mask/JPEGImages/test_00002761.jpg 76,28,134,104,1
+E:/mask_detection/face_mask/JPEGImages/test_00004896.jpg 220,166,338,336,1
+E:/mask_detection/face_mask/JPEGImages/test_00004703.jpg 253,43,316,124,1
+E:/mask_detection/face_mask/JPEGImages/test_00000702.jpg 474,182,532,267,1 219,131,273,207,0
+E:/mask_detection/face_mask/JPEGImages/test_00002673.jpg 445,156,742,580,1
+E:/mask_detection/face_mask/JPEGImages/test_00001459.jpg 252,164,519,508,1
+E:/mask_detection/face_mask/JPEGImages/test_00000467.jpg 447,100,642,356,1
+E:/mask_detection/face_mask/JPEGImages/test_00002140.jpg 195,49,250,139,1 1,18,32,97,0
+E:/mask_detection/face_mask/JPEGImages/test_00003350.jpg 19,1,147,141,0
+E:/mask_detection/face_mask/JPEGImages/test_00002148.jpg 283,198,546,543,1
+E:/mask_detection/face_mask/JPEGImages/test_00002081.jpg 75,126,466,619,1
+E:/mask_detection/face_mask/JPEGImages/test_00001950.jpg 155,219,370,539,1
+E:/mask_detection/face_mask/JPEGImages/test_00004602.jpg 93,82,200,219,1
+E:/mask_detection/face_mask/JPEGImages/test_00001333.jpg 227,67,340,227,1
+E:/mask_detection/face_mask/JPEGImages/test_00003872.jpg 233,178,281,253,1
+E:/mask_detection/face_mask/JPEGImages/test_00002871.jpg 73,0,277,261,1
+E:/mask_detection/face_mask/JPEGImages/test_00002456.jpg 316,162,349,208,0 223,148,259,187,0 141,135,179,181,0
+E:/mask_detection/face_mask/JPEGImages/test_00001792.jpg 176,146,262,263,1
+E:/mask_detection/face_mask/JPEGImages/test_00000092.jpg 451,221,525,308,0
+E:/mask_detection/face_mask/JPEGImages/test_00003630.jpg 34,196,87,252,0 361,206,418,271,0 105,135,143,179,0
+E:/mask_detection/face_mask/JPEGImages/test_00002652.jpg 216,48,452,421,1
+E:/mask_detection/face_mask/JPEGImages/test_00004557.jpg 444,119,516,213,1 208,161,273,249,1
+E:/mask_detection/face_mask/JPEGImages/test_00004682.jpg 112,44,358,394,0
+E:/mask_detection/face_mask/JPEGImages/test_00003155.jpg 62,97,174,268,0 334,107,432,256,1
+E:/mask_detection/face_mask/JPEGImages/test_00003831.jpg 110,95,223,264,1
+E:/mask_detection/face_mask/JPEGImages/test_00001679.jpg 302,168,556,525,1
+E:/mask_detection/face_mask/JPEGImages/test_00001572.jpg 236,28,384,209,0
+E:/mask_detection/face_mask/JPEGImages/test_00001798.jpg 435,202,577,407,1
+E:/mask_detection/face_mask/JPEGImages/test_00003300.jpg 139,30,380,440,1
+E:/mask_detection/face_mask/JPEGImages/test_00000283.jpg 53,72,123,157,1
+E:/mask_detection/face_mask/JPEGImages/test_00003199.jpg 241,206,417,532,1
+E:/mask_detection/face_mask/JPEGImages/test_00000046.jpg 147,294,282,478,1 74,141,119,194,0
+E:/mask_detection/face_mask/JPEGImages/test_00003376.jpg 280,153,486,435,1
+E:/mask_detection/face_mask/JPEGImages/test_00003174.jpg 44,13,75,56,1
+E:/mask_detection/face_mask/JPEGImages/test_00001941.jpg 88,20,244,222,1
+E:/mask_detection/face_mask/JPEGImages/test_00000231.jpg 66,44,122,123,1
+E:/mask_detection/face_mask/JPEGImages/test_00000430.jpg 102,114,211,275,1
+E:/mask_detection/face_mask/JPEGImages/test_00001103.jpg 71,149,285,463,0
+E:/mask_detection/face_mask/JPEGImages/test_00000928.jpg 289,80,329,133,0 145,120,187,192,1
+E:/mask_detection/face_mask/JPEGImages/test_00004096.jpg 253,221,280,262,0 20,128,49,163,0 71,210,89,246,0 164,258,183,291,0 387,84,405,123,0 283,60,310,98,0
+E:/mask_detection/face_mask/JPEGImages/test_00000957.jpg 229,199,944,1113,1
+E:/mask_detection/face_mask/JPEGImages/test_00002034.jpg 217,157,422,451,0
+E:/mask_detection/face_mask/JPEGImages/test_00002714.jpg 117,195,382,568,1
+E:/mask_detection/face_mask/JPEGImages/test_00004926.jpg 39,1,144,139,1 54,324,143,455,1 244,309,350,440,1 256,1,345,144,1
+E:/mask_detection/face_mask/JPEGImages/test_00001623.jpg 258,59,423,269,1
+E:/mask_detection/face_mask/JPEGImages/test_00000458.jpg 132,278,201,376,0 668,158,758,268,1 380,175,474,289,1
+E:/mask_detection/face_mask/JPEGImages/test_00000150.jpg 68,22,182,171,1
+E:/mask_detection/face_mask/JPEGImages/test_00002940.jpg 82,78,221,219,0
+E:/mask_detection/face_mask/JPEGImages/test_00004675.jpg 85,59,219,263,1
+E:/mask_detection/face_mask/JPEGImages/test_00002574.jpg 54,238,106,292,1 176,197,227,246,1 276,203,324,249,1
+E:/mask_detection/face_mask/JPEGImages/test_00004396.jpg 99,191,361,555,1 447,90,713,434,1
+E:/mask_detection/face_mask/JPEGImages/test_00004273.jpg 122,1,319,237,0
+E:/mask_detection/face_mask/JPEGImages/test_00004278.jpg 162,5,282,158,1
+E:/mask_detection/face_mask/JPEGImages/test_00001904.jpg 203,159,265,221,0 294,162,350,222,1
+E:/mask_detection/face_mask/JPEGImages/test_00003148.jpg 272,161,565,524,1
+E:/mask_detection/face_mask/JPEGImages/test_00000147.jpg 98,26,140,85,1
+E:/mask_detection/face_mask/JPEGImages/test_00000775.jpg 288,53,338,147,1
+E:/mask_detection/face_mask/JPEGImages/test_00004917.jpg 128,1,315,292,1
+E:/mask_detection/face_mask/JPEGImages/test_00000969.jpg 78,0,370,381,1
+E:/mask_detection/face_mask/JPEGImages/test_00001871.jpg 221,168,393,385,1
+E:/mask_detection/face_mask/JPEGImages/test_00003037.jpg 1646,377,1739,484,0 1262,352,1510,628,0 693,633,1006,964,0
+E:/mask_detection/face_mask/JPEGImages/test_00000132.jpg 125,108,274,339,1
+E:/mask_detection/face_mask/JPEGImages/test_00002984.jpg 176,136,306,308,0
+E:/mask_detection/face_mask/JPEGImages/test_00000696.jpg 83,219,217,480,1 1,332,72,603,0 328,390,434,562,1
+E:/mask_detection/face_mask/JPEGImages/test_00002046.jpg 34,27,128,172,0
+E:/mask_detection/face_mask/JPEGImages/test_00000325.jpg 36,102,79,159,1 202,40,259,115,1 166,72,206,121,1
+E:/mask_detection/face_mask/JPEGImages/test_00001144.jpg 82,143,263,408,1
+E:/mask_detection/face_mask/JPEGImages/test_00000435.jpg 330,55,695,533,1
+E:/mask_detection/face_mask/JPEGImages/test_00000389.jpg 87,172,202,344,1
+E:/mask_detection/face_mask/JPEGImages/test_00001610.jpg 26,28,145,169,0 213,19,337,159,0
+E:/mask_detection/face_mask/JPEGImages/test_00001799.jpg 137,49,295,263,0
+E:/mask_detection/face_mask/JPEGImages/test_00002176.jpg 185,95,364,386,0
+E:/mask_detection/face_mask/JPEGImages/test_00001363.jpg 214,40,270,110,1 62,31,116,112,1 54,337,114,410,1 213,333,264,402,1 337,24,396,111,1 50,188,116,266,1 351,176,410,248,1 338,336,396,414,1
+E:/mask_detection/face_mask/JPEGImages/test_00001017.jpg 95,45,182,162,1
+E:/mask_detection/face_mask/JPEGImages/test_00004425.jpg 124,61,197,159,0 122,59,195,157,0
+E:/mask_detection/face_mask/JPEGImages/test_00001111.jpg 86,46,159,160,1
+E:/mask_detection/face_mask/JPEGImages/test_00000331.jpg 74,26,288,300,1
+E:/mask_detection/face_mask/JPEGImages/test_00004251.jpg 327,190,407,299,1 64,180,142,309,0
+E:/mask_detection/face_mask/JPEGImages/test_00001674.jpg 76,28,142,115,1
+E:/mask_detection/face_mask/JPEGImages/test_00001743.jpg 77,26,117,84,1
+E:/mask_detection/face_mask/JPEGImages/test_00001423.jpg 32,1,196,176,1
+E:/mask_detection/face_mask/JPEGImages/test_00002209.jpg 231,322,527,781,0
+E:/mask_detection/face_mask/JPEGImages/test_00004319.jpg 84,72,211,242,1
+E:/mask_detection/face_mask/JPEGImages/test_00001541.jpg 130,164,202,260,1
+E:/mask_detection/face_mask/JPEGImages/test_00001641.jpg 261,60,553,442,1
+E:/mask_detection/face_mask/JPEGImages/test_00000111.jpg 152,45,209,115,1
+E:/mask_detection/face_mask/JPEGImages/test_00000691.jpg 214,154,282,240,1
+E:/mask_detection/face_mask/JPEGImages/test_00004814.jpg 193,78,325,251,1
+E:/mask_detection/face_mask/JPEGImages/test_00003837.jpg 487,118,746,496,1 47,130,297,503,1
+E:/mask_detection/face_mask/JPEGImages/test_00001437.jpg 274,175,489,471,1
+E:/mask_detection/face_mask/JPEGImages/test_00003728.jpg 213,114,319,224,0
+E:/mask_detection/face_mask/JPEGImages/test_00003101.jpg 305,65,403,191,1
+E:/mask_detection/face_mask/JPEGImages/test_00004542.jpg 97,37,234,252,1
+E:/mask_detection/face_mask/JPEGImages/test_00001878.jpg 107,148,156,231,1
+E:/mask_detection/face_mask/JPEGImages/test_00000185.jpg 97,40,140,95,1 184,33,220,86,1
+E:/mask_detection/face_mask/JPEGImages/test_00004213.jpg 45,25,74,69,1
+E:/mask_detection/face_mask/JPEGImages/test_00004701.jpg 266,223,478,490,1
+E:/mask_detection/face_mask/JPEGImages/test_00004935.jpg 136,7,454,421,1
+E:/mask_detection/face_mask/JPEGImages/test_00001751.jpg 301,58,527,335,1
+E:/mask_detection/face_mask/JPEGImages/test_00002571.jpg 96,33,126,67,1
+E:/mask_detection/face_mask/JPEGImages/test_00001460.jpg 352,117,509,296,0
+E:/mask_detection/face_mask/JPEGImages/test_00002416.jpg 321,45,434,285,1
+E:/mask_detection/face_mask/JPEGImages/test_00002745.jpg 208,161,519,611,1
+E:/mask_detection/face_mask/JPEGImages/test_00003464.jpg 56,1,138,81,1
+E:/mask_detection/face_mask/JPEGImages/test_00004229.jpg 194,158,500,547,1
+E:/mask_detection/face_mask/JPEGImages/test_00002077.jpg 501,68,632,234,1 481,372,569,524,1
+E:/mask_detection/face_mask/JPEGImages/test_00002084.jpg 179,4,454,452,1
+E:/mask_detection/face_mask/JPEGImages/test_00001655.jpg 135,157,372,461,1
+E:/mask_detection/face_mask/JPEGImages/test_00003468.jpg 57,24,152,145,1
+E:/mask_detection/face_mask/JPEGImages/test_00001240.jpg 181,83,260,193,1
+E:/mask_detection/face_mask/JPEGImages/test_00004932.jpg 44,36,294,397,1
+E:/mask_detection/face_mask/JPEGImages/test_00000657.jpg 95,73,234,270,1
+E:/mask_detection/face_mask/JPEGImages/test_00002999.jpg 418,76,590,292,0
+E:/mask_detection/face_mask/JPEGImages/test_00003085.jpg 94,78,156,106,0 61,17,107,63,0 241,12,273,69,0
+E:/mask_detection/face_mask/JPEGImages/test_00003679.jpg 211,140,552,568,1
+E:/mask_detection/face_mask/JPEGImages/test_00002001.jpg 102,25,244,206,1
+E:/mask_detection/face_mask/JPEGImages/test_00002867.jpg 142,116,278,303,1
+E:/mask_detection/face_mask/JPEGImages/test_00000242.jpg 105,53,186,168,1
+E:/mask_detection/face_mask/JPEGImages/test_00004423.jpg 76,1,150,107,0
+E:/mask_detection/face_mask/JPEGImages/test_00003159.jpg 238,118,361,328,1
+E:/mask_detection/face_mask/JPEGImages/test_00004595.jpg 132,79,312,302,1
+E:/mask_detection/face_mask/JPEGImages/test_00002492.jpg 309,85,583,436,1
+E:/mask_detection/face_mask/JPEGImages/test_00001989.jpg 290,142,479,444,1
+E:/mask_detection/face_mask/JPEGImages/test_00000905.jpg 118,50,257,254,1 225,215,346,390,0
+E:/mask_detection/face_mask/JPEGImages/test_00000788.jpg 221,335,347,528,1 460,403,505,481,0
+E:/mask_detection/face_mask/JPEGImages/test_00001478.jpg 261,135,519,512,1
+E:/mask_detection/face_mask/JPEGImages/test_00003923.jpg 269,156,309,212,0 199,241,244,305,0
+E:/mask_detection/face_mask/JPEGImages/test_00004789.jpg 179,77,353,294,1
+E:/mask_detection/face_mask/JPEGImages/test_00003192.jpg 101,779,299,1097,1 98,6,294,313,1 688,73,853,323,1 742,899,860,1057,1
+E:/mask_detection/face_mask/JPEGImages/test_00001302.jpg 116,48,232,219,0
+E:/mask_detection/face_mask/JPEGImages/test_00000942.jpg 471,140,1230,1144,1
+E:/mask_detection/face_mask/JPEGImages/test_00000488.jpg 304,109,437,292,1 647,330,682,391,0
+E:/mask_detection/face_mask/JPEGImages/test_00003188.jpg 164,102,350,333,1
+E:/mask_detection/face_mask/JPEGImages/test_00001196.jpg 75,34,126,100,1
+E:/mask_detection/face_mask/JPEGImages/test_00001625.jpg 206,141,498,527,1
+E:/mask_detection/face_mask/JPEGImages/test_00003333.jpg 62,33,162,204,1
+E:/mask_detection/face_mask/JPEGImages/test_00003808.jpg 215,96,287,219,1
+E:/mask_detection/face_mask/JPEGImages/test_00003542.jpg 337,262,565,615,1
+E:/mask_detection/face_mask/JPEGImages/test_00003955.jpg 542,165,609,255,0 211,113,285,221,1 368,147,434,221,1
+E:/mask_detection/face_mask/JPEGImages/test_00003371.jpg 157,110,382,438,1
+E:/mask_detection/face_mask/JPEGImages/test_00002687.jpg 150,77,265,231,1
+E:/mask_detection/face_mask/JPEGImages/test_00002362.jpg 229,1,441,316,1 7,52,199,311,1
+E:/mask_detection/face_mask/JPEGImages/test_00003556.jpg 436,84,751,439,1 47,151,323,507,1
+E:/mask_detection/face_mask/JPEGImages/test_00003725.jpg 142,99,248,272,1
+E:/mask_detection/face_mask/JPEGImages/test_00001866.jpg 124,77,295,315,1
+E:/mask_detection/face_mask/JPEGImages/test_00000879.jpg 231,50,311,157,1
+E:/mask_detection/face_mask/JPEGImages/test_00000405.jpg 4,108,62,189,1 175,118,235,194,1
+E:/mask_detection/face_mask/JPEGImages/test_00004840.jpg 90,119,429,580,1
+E:/mask_detection/face_mask/JPEGImages/test_00002225.jpg 76,1,174,131,0
+E:/mask_detection/face_mask/JPEGImages/test_00000897.jpg 277,175,594,573,1
+E:/mask_detection/face_mask/JPEGImages/test_00002558.jpg 97,107,289,357,1
+E:/mask_detection/face_mask/JPEGImages/test_00002774.jpg 313,159,553,476,1
+E:/mask_detection/face_mask/JPEGImages/test_00000770.jpg 439,250,486,320,1
+E:/mask_detection/face_mask/JPEGImages/test_00002206.jpg 266,34,430,255,1
+E:/mask_detection/face_mask/JPEGImages/test_00004364.jpg 295,92,420,279,0
+E:/mask_detection/face_mask/JPEGImages/test_00003352.jpg 235,1,436,226,0
+E:/mask_detection/face_mask/JPEGImages/test_00004101.jpg 273,115,529,455,1
+E:/mask_detection/face_mask/JPEGImages/test_00004138.jpg 262,82,415,261,0
+E:/mask_detection/face_mask/JPEGImages/test_00001987.jpg 246,67,337,185,0
+E:/mask_detection/face_mask/JPEGImages/test_00004869.jpg 182,123,304,283,1
+E:/mask_detection/face_mask/JPEGImages/test_00004757.jpg 114,79,316,380,1
+E:/mask_detection/face_mask/JPEGImages/test_00004441.jpg 111,48,188,174,0 1,303,49,373,0
+E:/mask_detection/face_mask/JPEGImages/test_00002468.jpg 277,100,397,266,1
+E:/mask_detection/face_mask/JPEGImages/test_00001659.jpg 105,134,304,432,1
+E:/mask_detection/face_mask/JPEGImages/test_00001745.jpg 1,280,511,625,1
+E:/mask_detection/face_mask/JPEGImages/test_00004668.jpg 82,13,148,107,0
+E:/mask_detection/face_mask/JPEGImages/test_00003775.jpg 404,117,465,193,0 74,47,145,120,0 215,103,280,174,0 310,104,367,174,0
+E:/mask_detection/face_mask/JPEGImages/test_00001708.jpg 238,169,523,546,1
+E:/mask_detection/face_mask/JPEGImages/test_00001527.jpg 81,49,215,210,1
+E:/mask_detection/face_mask/JPEGImages/test_00001029.jpg 47,14,158,127,0
+E:/mask_detection/face_mask/JPEGImages/test_00001860.jpg 102,20,159,98,1
+E:/mask_detection/face_mask/JPEGImages/test_00004327.jpg 173,54,338,275,1
+E:/mask_detection/face_mask/JPEGImages/test_00003291.jpg 203,136,348,378,1
+E:/mask_detection/face_mask/JPEGImages/test_00000102.jpg 135,1,677,755,1
+E:/mask_detection/face_mask/JPEGImages/test_00002048.jpg 308,103,438,303,1 1,384,16,412,1
+E:/mask_detection/face_mask/JPEGImages/test_00003557.jpg 107,72,154,129,0 199,103,248,164,0 77,133,88,147,0
+E:/mask_detection/face_mask/JPEGImages/test_00004927.jpg 195,60,423,381,1
+E:/mask_detection/face_mask/JPEGImages/test_00002537.jpg 286,101,493,404,1
+E:/mask_detection/face_mask/JPEGImages/test_00001332.jpg 132,232,333,478,1
+E:/mask_detection/face_mask/JPEGImages/test_00000494.jpg 80,16,122,57,1
+E:/mask_detection/face_mask/JPEGImages/test_00004332.jpg 253,171,561,583,1
+E:/mask_detection/face_mask/JPEGImages/test_00001263.jpg 268,92,530,452,0
+E:/mask_detection/face_mask/JPEGImages/test_00000380.jpg 184,48,224,98,1
+E:/mask_detection/face_mask/JPEGImages/test_00003268.jpg 377,47,690,489,1
+E:/mask_detection/face_mask/JPEGImages/test_00000415.jpg 44,22,145,169,1
+E:/mask_detection/face_mask/JPEGImages/test_00003406.jpg 128,163,233,303,1
+E:/mask_detection/face_mask/JPEGImages/test_00000064.jpg 144,179,527,657,1
+E:/mask_detection/face_mask/JPEGImages/test_00004636.jpg 150,53,264,186,1 324,84,428,190,1
+E:/mask_detection/face_mask/JPEGImages/test_00003216.jpg 243,287,314,377,0 100,206,178,301,0
+E:/mask_detection/face_mask/JPEGImages/test_00003134.jpg 263,216,797,957,1
+E:/mask_detection/face_mask/JPEGImages/test_00003034.jpg 237,185,293,265,1
+E:/mask_detection/face_mask/JPEGImages/test_00001585.jpg 131,36,179,88,1 360,34,417,100,1 597,40,648,91,1
+E:/mask_detection/face_mask/JPEGImages/test_00002562.jpg 76,63,172,209,1
+E:/mask_detection/face_mask/JPEGImages/test_00000543.jpg 52,34,114,120,1 126,77,179,162,0
+E:/mask_detection/face_mask/JPEGImages/test_00002025.jpg 103,51,314,324,1
+E:/mask_detection/face_mask/JPEGImages/test_00002746.jpg 273,1,506,317,1
+E:/mask_detection/face_mask/JPEGImages/test_00004601.jpg 286,78,397,210,1
+E:/mask_detection/face_mask/JPEGImages/test_00004397.jpg 154,162,351,489,1 556,162,767,468,1
+E:/mask_detection/face_mask/JPEGImages/test_00001181.jpg 254,183,484,502,1
+E:/mask_detection/face_mask/JPEGImages/test_00001043.jpg 57,28,119,117,1
+E:/mask_detection/face_mask/JPEGImages/test_00003039.jpg 167,48,273,186,0
+E:/mask_detection/face_mask/JPEGImages/test_00002134.jpg 785,466,1220,1067,1
+E:/mask_detection/face_mask/JPEGImages/test_00001498.jpg 96,46,212,246,0
+E:/mask_detection/face_mask/JPEGImages/test_00000241.jpg 151,64,204,131,1 30,18,66,69,1
+E:/mask_detection/face_mask/JPEGImages/test_00004376.jpg 86,57,135,126,0
+E:/mask_detection/face_mask/JPEGImages/test_00002920.jpg 44,26,109,127,1
+E:/mask_detection/face_mask/JPEGImages/test_00004275.jpg 323,83,448,279,1
+E:/mask_detection/face_mask/JPEGImages/test_00000373.jpg 105,57,169,153,1
+E:/mask_detection/face_mask/JPEGImages/test_00000754.jpg 136,8,185,74,1
+E:/mask_detection/face_mask/JPEGImages/test_00004530.jpg 317,116,378,213,1 51,532,79,578,1
+E:/mask_detection/face_mask/JPEGImages/test_00000645.jpg 303,30,429,196,1
+E:/mask_detection/face_mask/JPEGImages/test_00004476.jpg 646,237,854,505,1
+E:/mask_detection/face_mask/JPEGImages/test_00002093.jpg 312,99,378,195,0 115,220,177,313,1
+E:/mask_detection/face_mask/JPEGImages/test_00001248.jpg 142,241,405,566,1
+E:/mask_detection/face_mask/JPEGImages/test_00004655.jpg 139,49,191,116,1
+E:/mask_detection/face_mask/JPEGImages/test_00003378.jpg 141,119,253,301,1
+E:/mask_detection/face_mask/JPEGImages/test_00001448.jpg 336,197,509,417,0
+E:/mask_detection/face_mask/JPEGImages/test_00000089.jpg 80,58,158,143,1
+E:/mask_detection/face_mask/JPEGImages/test_00001898.jpg 156,70,302,260,1
+E:/mask_detection/face_mask/JPEGImages/test_00001582.jpg 279,129,526,438,1
+E:/mask_detection/face_mask/JPEGImages/test_00004586.jpg 184,167,533,653,1
+E:/mask_detection/face_mask/JPEGImages/test_00001885.jpg 49,30,139,148,1
+E:/mask_detection/face_mask/JPEGImages/test_00002223.jpg 191,56,410,359,1
+E:/mask_detection/face_mask/JPEGImages/test_00004257.jpg 209,1,328,127,1
+E:/mask_detection/face_mask/JPEGImages/test_00000412.jpg 602,234,682,372,0 236,72,377,253,1
+E:/mask_detection/face_mask/JPEGImages/test_00004905.jpg 38,1,312,322,1
+E:/mask_detection/face_mask/JPEGImages/test_00001238.jpg 50,64,127,179,1 263,133,342,255,1 367,70,444,181,1 259,1,319,55,1
+E:/mask_detection/face_mask/JPEGImages/test_00002267.jpg 57,115,92,151,0 223,81,257,129,1 155,103,192,146,0 370,37,388,60,0
+E:/mask_detection/face_mask/JPEGImages/test_00001094.jpg 104,206,218,384,1
+E:/mask_detection/face_mask/JPEGImages/test_00003641.jpg 218,124,403,383,1
+E:/mask_detection/face_mask/JPEGImages/test_00001456.jpg 145,165,410,524,1
+E:/mask_detection/face_mask/JPEGImages/test_00000221.jpg 77,41,110,85,1
+E:/mask_detection/face_mask/JPEGImages/test_00003271.jpg 115,99,249,282,0 296,152,440,323,0
+E:/mask_detection/face_mask/JPEGImages/test_00003549.jpg 254,186,841,988,1
+E:/mask_detection/face_mask/JPEGImages/test_00002100.jpg 237,130,354,232,1
+E:/mask_detection/face_mask/JPEGImages/test_00000950.jpg 393,238,612,506,1
+E:/mask_detection/face_mask/JPEGImages/test_00002612.jpg 259,143,287,172,1
+E:/mask_detection/face_mask/JPEGImages/test_00003683.jpg 256,191,446,449,1
+E:/mask_detection/face_mask/JPEGImages/test_00004303.jpg 224,148,541,547,1
+E:/mask_detection/face_mask/JPEGImages/test_00002385.jpg 96,149,215,303,1 569,98,687,250,1 323,149,433,305,1
+E:/mask_detection/face_mask/JPEGImages/test_00002684.jpg 286,52,387,211,1
+E:/mask_detection/face_mask/JPEGImages/test_00002642.jpg 308,56,450,249,1 347,438,462,574,1 47,0,213,192,1 555,25,696,207,1 70,430,187,574,1 630,427,742,575,1
+E:/mask_detection/face_mask/JPEGImages/test_00004378.jpg 256,128,361,253,1
+E:/mask_detection/face_mask/JPEGImages/test_00001000.jpg 327,179,402,269,1
+E:/mask_detection/face_mask/JPEGImages/test_00001847.jpg 135,46,184,92,0 257,42,296,91,1 32,49,70,94,0
+E:/mask_detection/face_mask/JPEGImages/test_00001097.jpg 295,74,374,201,1 75,1,135,91,0
+E:/mask_detection/face_mask/JPEGImages/test_00000656.jpg 147,43,204,128,1
+E:/mask_detection/face_mask/JPEGImages/test_00004344.jpg 439,264,550,443,1
+E:/mask_detection/face_mask/JPEGImages/test_00001965.jpg 227,117,349,274,1
+E:/mask_detection/face_mask/JPEGImages/test_00001637.jpg 239,85,461,439,1
+E:/mask_detection/face_mask/JPEGImages/test_00001443.jpg 159,45,214,137,1
+E:/mask_detection/face_mask/JPEGImages/test_00003013.jpg 386,253,493,448,1
+E:/mask_detection/face_mask/JPEGImages/test_00002005.jpg 145,104,323,376,1
+E:/mask_detection/face_mask/JPEGImages/test_00001804.jpg 280,88,588,554,1
+E:/mask_detection/face_mask/JPEGImages/test_00004265.jpg 86,21,142,81,1
+E:/mask_detection/face_mask/JPEGImages/test_00003302.jpg 85,16,226,214,1
+E:/mask_detection/face_mask/JPEGImages/test_00004768.jpg 310,116,388,201,1 212,87,278,148,1
+E:/mask_detection/face_mask/JPEGImages/test_00002739.jpg 56,96,256,374,1
+E:/mask_detection/face_mask/JPEGImages/test_00000769.jpg 296,190,348,227,1
+E:/mask_detection/face_mask/JPEGImages/test_00004062.jpg 89,70,152,159,0
+E:/mask_detection/face_mask/JPEGImages/test_00003162.jpg 65,11,128,87,1
+E:/mask_detection/face_mask/JPEGImages/test_00001974.jpg 200,181,277,272,0 147,133,176,165,0
+E:/mask_detection/face_mask/JPEGImages/test_00000313.jpg 139,190,196,280,1
+E:/mask_detection/face_mask/JPEGImages/test_00003316.jpg 52,1,88,43,0
+E:/mask_detection/face_mask/JPEGImages/test_00002079.jpg 304,190,471,427,1
+E:/mask_detection/face_mask/JPEGImages/test_00004671.jpg 297,134,471,360,1
+E:/mask_detection/face_mask/JPEGImages/test_00000614.jpg 60,37,108,88,1
+E:/mask_detection/face_mask/JPEGImages/test_00001808.jpg 114,0,429,383,1
+E:/mask_detection/face_mask/JPEGImages/test_00001316.jpg 567,594,661,704,0 329,285,489,478,1
+E:/mask_detection/face_mask/JPEGImages/test_00000912.jpg 236,129,349,263,1
+E:/mask_detection/face_mask/JPEGImages/test_00002873.jpg 3,129,139,300,1 350,111,444,233,0 152,52,307,257,1
+E:/mask_detection/face_mask/JPEGImages/test_00004117.jpg 163,148,261,285,0
+E:/mask_detection/face_mask/JPEGImages/test_00004566.jpg 372,89,538,312,1
+E:/mask_detection/face_mask/JPEGImages/test_00001289.jpg 343,236,699,720,1
+E:/mask_detection/face_mask/JPEGImages/test_00000504.jpg 218,153,283,241,1 601,118,672,212,1
+E:/mask_detection/face_mask/JPEGImages/test_00001279.jpg 156,122,332,336,1
+E:/mask_detection/face_mask/JPEGImages/test_00003073.jpg 206,128,437,440,1
+E:/mask_detection/face_mask/JPEGImages/test_00004168.jpg 468,68,544,160,0 387,73,452,162,0
+E:/mask_detection/face_mask/JPEGImages/test_00001775.jpg 260,89,584,496,1
+E:/mask_detection/face_mask/JPEGImages/test_00001370.jpg 316,154,575,506,1
+E:/mask_detection/face_mask/JPEGImages/test_00004494.jpg 580,100,665,220,0 281,72,375,240,0
+E:/mask_detection/face_mask/JPEGImages/test_00001277.jpg 57,106,300,366,1 377,85,610,355,1 200,380,414,635,1 502,353,748,628,1
+E:/mask_detection/face_mask/JPEGImages/test_00002108.jpg 164,129,252,257,0
+E:/mask_detection/face_mask/JPEGImages/test_00003432.jpg 310,230,574,558,1
+E:/mask_detection/face_mask/JPEGImages/test_00002529.jpg 521,205,578,287,0 313,189,360,267,1
+E:/mask_detection/face_mask/JPEGImages/test_00003220.jpg 90,25,188,146,1
+E:/mask_detection/face_mask/JPEGImages/test_00004553.jpg 193,137,310,280,1
+E:/mask_detection/face_mask/JPEGImages/test_00004018.jpg 113,81,288,314,1
+E:/mask_detection/face_mask/JPEGImages/test_00001442.jpg 144,102,248,206,1
+E:/mask_detection/face_mask/JPEGImages/test_00004628.jpg 126,41,310,300,1
+E:/mask_detection/face_mask/JPEGImages/test_00001002.jpg 34,0,90,63,1
+E:/mask_detection/face_mask/JPEGImages/test_00001309.jpg 287,88,525,377,1
+E:/mask_detection/face_mask/JPEGImages/test_00003508.jpg 84,33,172,163,1
+E:/mask_detection/face_mask/JPEGImages/test_00000532.jpg 46,1,119,105,1
+E:/mask_detection/face_mask/JPEGImages/test_00001726.jpg 320,95,411,227,1
+E:/mask_detection/face_mask/JPEGImages/test_00001689.jpg 177,149,507,592,1
+E:/mask_detection/face_mask/JPEGImages/test_00004410.jpg 13,56,58,102,0 232,64,274,109,0
+E:/mask_detection/face_mask/JPEGImages/test_00002887.jpg 82,216,308,499,1
+E:/mask_detection/face_mask/JPEGImages/test_00001164.jpg 505,46,554,117,1
+E:/mask_detection/face_mask/JPEGImages/test_00001234.jpg 185,1,529,436,1
+E:/mask_detection/face_mask/JPEGImages/test_00000915.jpg 233,57,378,221,1 81,171,240,270,1 425,116,552,263,1
+E:/mask_detection/face_mask/JPEGImages/test_00000328.jpg 173,82,219,137,1 67,95,112,148,1
+E:/mask_detection/face_mask/JPEGImages/test_00000218.jpg 105,62,192,185,1
+E:/mask_detection/face_mask/JPEGImages/test_00002561.jpg 125,12,357,366,1
+E:/mask_detection/face_mask/JPEGImages/test_00000308.jpg 166,79,202,114,1
+E:/mask_detection/face_mask/JPEGImages/test_00004419.jpg 219,82,462,517,0
+E:/mask_detection/face_mask/JPEGImages/test_00003742.jpg 287,80,559,427,1
+E:/mask_detection/face_mask/JPEGImages/test_00003147.jpg 447,111,567,259,0
+E:/mask_detection/face_mask/JPEGImages/test_00000002.jpg 129,37,318,327,1
+E:/mask_detection/face_mask/JPEGImages/test_00004813.jpg 249,88,421,302,1
+E:/mask_detection/face_mask/JPEGImages/test_00004560.jpg 854,289,1100,609,0
+E:/mask_detection/face_mask/JPEGImages/test_00003554.jpg 419,88,508,192,0
+E:/mask_detection/face_mask/JPEGImages/test_00000631.jpg 235,38,292,108,1 35,70,98,149,1
+E:/mask_detection/face_mask/JPEGImages/test_00000640.jpg 71,52,231,258,1
+E:/mask_detection/face_mask/JPEGImages/test_00004742.jpg 241,214,480,574,1
+E:/mask_detection/face_mask/JPEGImages/test_00001636.jpg 89,77,298,385,1
+E:/mask_detection/face_mask/JPEGImages/test_00002947.jpg 222,177,505,548,1
+E:/mask_detection/face_mask/JPEGImages/test_00000105.jpg 66,16,131,98,1
+E:/mask_detection/face_mask/JPEGImages/test_00004029.jpg 268,43,339,161,0
+E:/mask_detection/face_mask/JPEGImages/test_00003812.jpg 52,106,336,560,1
+E:/mask_detection/face_mask/JPEGImages/test_00004559.jpg 261,71,538,405,1
+E:/mask_detection/face_mask/JPEGImages/test_00001932.jpg 278,144,530,422,1
+E:/mask_detection/face_mask/JPEGImages/test_00000692.jpg 224,170,285,258,1
+E:/mask_detection/face_mask/JPEGImages/test_00002588.jpg 138,72,273,247,1
+E:/mask_detection/face_mask/JPEGImages/test_00004825.jpg 129,179,333,424,1
+E:/mask_detection/face_mask/JPEGImages/test_00000035.jpg 245,339,342,468,1 1,185,69,336,1
+E:/mask_detection/face_mask/JPEGImages/test_00001421.jpg 249,0,459,210,1
+E:/mask_detection/face_mask/JPEGImages/test_00004645.jpg 261,163,451,457,0
+E:/mask_detection/face_mask/JPEGImages/test_00004794.jpg 375,59,407,96,1 246,26,279,64,1 152,27,186,77,0
+E:/mask_detection/face_mask/JPEGImages/test_00000010.jpg 42,40,110,135,1
+E:/mask_detection/face_mask/JPEGImages/test_00003042.jpg 259,218,394,407,1
+E:/mask_detection/face_mask/JPEGImages/test_00002221.jpg 158,113,274,267,0
+E:/mask_detection/face_mask/JPEGImages/test_00001231.jpg 178,182,373,477,1
+E:/mask_detection/face_mask/JPEGImages/test_00000095.jpg 331,331,423,454,0 227,358,313,480,0
+E:/mask_detection/face_mask/JPEGImages/test_00002110.jpg 342,110,464,287,1
+E:/mask_detection/face_mask/JPEGImages/test_00000029.jpg 303,249,426,393,1 51,251,136,373,0
+E:/mask_detection/face_mask/JPEGImages/test_00000544.jpg 130,99,212,227,1
+E:/mask_detection/face_mask/JPEGImages/test_00004633.jpg 193,68,351,260,1
+E:/mask_detection/face_mask/JPEGImages/test_00002772.jpg 204,58,362,276,1
+E:/mask_detection/face_mask/JPEGImages/test_00002085.jpg 81,1,460,439,1
+E:/mask_detection/face_mask/JPEGImages/test_00001258.jpg 192,57,429,372,0
+E:/mask_detection/face_mask/JPEGImages/test_00004625.jpg 225,116,382,292,1
+E:/mask_detection/face_mask/JPEGImages/test_00003038.jpg 29,1,162,160,0
+E:/mask_detection/face_mask/JPEGImages/test_00002329.jpg 26,91,107,205,0
+E:/mask_detection/face_mask/JPEGImages/test_00001474.jpg 397,184,532,345,1
+E:/mask_detection/face_mask/JPEGImages/test_00002833.jpg 396,142,480,274,0
+E:/mask_detection/face_mask/JPEGImages/test_00001840.jpg 110,42,238,230,1
+E:/mask_detection/face_mask/JPEGImages/test_00002643.jpg 149,67,297,255,1
+E:/mask_detection/face_mask/JPEGImages/test_00001937.jpg 82,33,266,287,1
+E:/mask_detection/face_mask/JPEGImages/test_00003204.jpg 284,114,315,157,0
+E:/mask_detection/face_mask/JPEGImages/test_00001903.jpg 231,127,481,431,1
+E:/mask_detection/face_mask/JPEGImages/test_00001348.jpg 469,209,654,421,1 1184,208,1369,425,1
+E:/mask_detection/face_mask/JPEGImages/test_00003465.jpg 131,536,199,619,0
+E:/mask_detection/face_mask/JPEGImages/test_00003385.jpg 124,130,196,226,1
+E:/mask_detection/face_mask/JPEGImages/test_00001352.jpg
+E:/mask_detection/face_mask/JPEGImages/test_00002600.jpg 76,1,405,408,1
+E:/mask_detection/face_mask/JPEGImages/test_00003833.jpg 113,142,281,371,0
+E:/mask_detection/face_mask/JPEGImages/test_00001733.jpg 325,126,530,389,1
+E:/mask_detection/face_mask/JPEGImages/test_00003171.jpg 193,83,567,555,1
+E:/mask_detection/face_mask/JPEGImages/test_00001412.jpg 577,138,649,237,0 312,113,362,183,1
+E:/mask_detection/face_mask/JPEGImages/test_00004785.jpg 37,1,475,627,1
+E:/mask_detection/face_mask/JPEGImages/test_00004735.jpg 50,27,109,111,1
+E:/mask_detection/face_mask/JPEGImages/test_00003668.jpg 179,58,421,372,1
+E:/mask_detection/face_mask/JPEGImages/test_00004599.jpg 256,286,681,828,1
+E:/mask_detection/face_mask/JPEGImages/test_00004584.jpg 260,194,456,462,1
+E:/mask_detection/face_mask/JPEGImages/test_00004901.jpg 161,2,413,389,1
+E:/mask_detection/face_mask/JPEGImages/test_00003288.jpg 80,30,233,226,0
+E:/mask_detection/face_mask/JPEGImages/test_00002792.jpg 608,86,724,236,1 165,197,286,324,1
+E:/mask_detection/face_mask/JPEGImages/test_00003206.jpg 51,27,83,75,0 105,13,148,66,0
+E:/mask_detection/face_mask/JPEGImages/test_00000930.jpg 96,1,449,417,1
+E:/mask_detection/face_mask/JPEGImages/test_00004210.jpg 297,106,521,404,1
+E:/mask_detection/face_mask/JPEGImages/test_00003565.jpg 360,282,542,558,1
+E:/mask_detection/face_mask/JPEGImages/test_00003207.jpg 233,139,518,506,1
+E:/mask_detection/face_mask/JPEGImages/test_00004219.jpg 328,0,595,331,1
+E:/mask_detection/face_mask/JPEGImages/test_00004920.jpg 176,6,383,324,1
+E:/mask_detection/face_mask/JPEGImages/test_00004211.jpg 264,0,476,261,1
+E:/mask_detection/face_mask/JPEGImages/test_00004295.jpg 442,106,548,225,1
+E:/mask_detection/face_mask/JPEGImages/test_00001609.jpg 114,37,227,201,0
+E:/mask_detection/face_mask/JPEGImages/test_00003510.jpg 38,97,165,249,1 305,84,425,241,1
+E:/mask_detection/face_mask/JPEGImages/test_00003084.jpg 84,66,392,491,1
+E:/mask_detection/face_mask/JPEGImages/test_00003590.jpg 161,97,277,253,1
+E:/mask_detection/face_mask/JPEGImages/test_00000991.jpg 54,43,125,146,0
+E:/mask_detection/face_mask/JPEGImages/test_00000873.jpg 312,149,447,355,1 598,159,632,295,0
+E:/mask_detection/face_mask/JPEGImages/test_00003541.jpg 146,76,232,190,0
+E:/mask_detection/face_mask/JPEGImages/test_00004121.jpg 155,115,311,350,0
+E:/mask_detection/face_mask/JPEGImages/test_00004790.jpg 133,67,278,286,0
+E:/mask_detection/face_mask/JPEGImages/test_00001714.jpg 86,24,138,87,1
+E:/mask_detection/face_mask/JPEGImages/test_00001177.jpg 156,98,281,271,1 630,130,740,252,1
+E:/mask_detection/face_mask/JPEGImages/test_00000531.jpg 45,7,122,119,1
+E:/mask_detection/face_mask/JPEGImages/test_00003193.jpg 132,46,165,84,1
+E:/mask_detection/face_mask/JPEGImages/test_00002693.jpg 204,66,286,181,1
+E:/mask_detection/face_mask/JPEGImages/test_00004360.jpg 132,79,183,152,0 346,70,399,138,1 94,41,144,119,0
+E:/mask_detection/face_mask/JPEGImages/test_00002849.jpg 198,132,317,323,1 650,300,666,363,1
+E:/mask_detection/face_mask/JPEGImages/test_00001210.jpg 196,206,444,561,1
+E:/mask_detection/face_mask/JPEGImages/test_00001514.jpg 47,55,170,226,1
+E:/mask_detection/face_mask/JPEGImages/test_00001406.jpg 383,152,694,508,1
+E:/mask_detection/face_mask/JPEGImages/test_00004198.jpg 215,152,461,473,1
+E:/mask_detection/face_mask/JPEGImages/test_00004817.jpg 248,69,375,241,1
+E:/mask_detection/face_mask/JPEGImages/test_00004631.jpg 223,52,390,292,0
+E:/mask_detection/face_mask/JPEGImages/test_00000459.jpg 49,0,163,145,1
+E:/mask_detection/face_mask/JPEGImages/test_00002448.jpg 119,145,330,371,1
+E:/mask_detection/face_mask/JPEGImages/test_00000154.jpg 124,51,167,98,1
+E:/mask_detection/face_mask/JPEGImages/test_00002491.jpg 110,24,207,176,1
+E:/mask_detection/face_mask/JPEGImages/test_00000240.jpg 153,73,198,125,1 44,19,75,61,1
+E:/mask_detection/face_mask/JPEGImages/test_00001209.jpg 181,97,299,234,1
+E:/mask_detection/face_mask/JPEGImages/test_00001793.jpg 422,98,505,193,0
+E:/mask_detection/face_mask/JPEGImages/test_00003781.jpg 163,82,213,148,1 25,50,67,114,1
+E:/mask_detection/face_mask/JPEGImages/test_00003763.jpg 185,48,322,206,0
+E:/mask_detection/face_mask/JPEGImages/test_00001899.jpg 69,140,306,436,1
+E:/mask_detection/face_mask/JPEGImages/test_00001955.jpg 61,58,141,159,1
+E:/mask_detection/face_mask/JPEGImages/test_00004142.jpg 100,102,190,245,1
+E:/mask_detection/face_mask/JPEGImages/test_00001720.jpg 450,77,831,505,0
+E:/mask_detection/face_mask/JPEGImages/test_00003841.jpg 385,374,567,660,0
+E:/mask_detection/face_mask/JPEGImages/test_00002384.jpg 176,62,267,175,0
+E:/mask_detection/face_mask/JPEGImages/test_00004729.jpg 574,662,931,1196,1
+E:/mask_detection/face_mask/JPEGImages/test_00003593.jpg 198,157,314,321,0
+E:/mask_detection/face_mask/JPEGImages/test_00000612.jpg 79,72,128,143,0 238,29,296,113,1 402,149,428,182,0
+E:/mask_detection/face_mask/JPEGImages/test_00000024.jpg 54,30,128,132,1
+E:/mask_detection/face_mask/JPEGImages/test_00001048.jpg 97,107,252,302,1
+E:/mask_detection/face_mask/JPEGImages/test_00004808.jpg 238,179,336,329,1
+E:/mask_detection/face_mask/JPEGImages/test_00004479.jpg 60,109,211,319,0
+E:/mask_detection/face_mask/JPEGImages/test_00002993.jpg 178,35,252,122,1
+E:/mask_detection/face_mask/JPEGImages/test_00001490.jpg 219,153,308,242,1 139,181,213,266,1 190,56,267,111,1 282,77,382,164,1 24,117,130,191,1 73,180,146,271,1 98,51,182,132,1
+E:/mask_detection/face_mask/JPEGImages/test_00003091.jpg 204,10,396,299,1 465,687,564,844,1 116,712,198,829,1 97,433,134,485,0
+E:/mask_detection/face_mask/JPEGImages/test_00002608.jpg 199,63,325,223,1
+E:/mask_detection/face_mask/JPEGImages/test_00000309.jpg 110,89,181,160,1
+E:/mask_detection/face_mask/JPEGImages/test_00003187.jpg 225,75,334,260,1 106,211,193,361,0
+E:/mask_detection/face_mask/JPEGImages/test_00002599.jpg 305,1,823,853,0
+E:/mask_detection/face_mask/JPEGImages/test_00000498.jpg 250,72,396,278,1
+E:/mask_detection/face_mask/JPEGImages/test_00000481.jpg 207,152,244,202,1
+E:/mask_detection/face_mask/JPEGImages/test_00004246.jpg 271,196,531,521,1
+E:/mask_detection/face_mask/JPEGImages/test_00003345.jpg 250,96,331,201,1
+E:/mask_detection/face_mask/JPEGImages/test_00003807.jpg 165,163,455,525,1
+E:/mask_detection/face_mask/JPEGImages/test_00003437.jpg 129,121,438,650,1
+E:/mask_detection/face_mask/JPEGImages/test_00004139.jpg 267,145,328,235,1
+E:/mask_detection/face_mask/JPEGImages/test_00004353.jpg 47,86,181,352,1
+E:/mask_detection/face_mask/JPEGImages/test_00003045.jpg 63,35,106,87,1
+E:/mask_detection/face_mask/JPEGImages/test_00000339.jpg 177,43,283,173,1
+E:/mask_detection/face_mask/JPEGImages/test_00001265.jpg 97,99,443,513,1
+E:/mask_detection/face_mask/JPEGImages/test_00004331.jpg 44,1,192,179,1 215,121,367,310,1
+E:/mask_detection/face_mask/JPEGImages/test_00000555.jpg 264,158,421,372,1
+E:/mask_detection/face_mask/JPEGImages/test_00003567.jpg 453,239,538,344,1 320,53,400,162,0
+E:/mask_detection/face_mask/JPEGImages/test_00003726.jpg 70,1,317,306,1
+E:/mask_detection/face_mask/JPEGImages/test_00004371.jpg 262,36,472,277,1
+E:/mask_detection/face_mask/JPEGImages/test_00003802.jpg 253,80,371,284,1
+E:/mask_detection/face_mask/JPEGImages/test_00001340.jpg 136,51,262,237,1
+E:/mask_detection/face_mask/JPEGImages/test_00001835.jpg 235,49,357,229,1
+E:/mask_detection/face_mask/JPEGImages/test_00003424.jpg 170,70,304,264,0
+E:/mask_detection/face_mask/JPEGImages/test_00000124.jpg 16,103,106,232,1
+E:/mask_detection/face_mask/JPEGImages/test_00002635.jpg 148,72,258,226,1
+E:/mask_detection/face_mask/JPEGImages/test_00003052.jpg 42,68,76,105,0 257,44,295,99,0 138,59,168,97,0 168,90,181,107,0 207,108,219,120,0 98,111,108,123,0 231,97,246,112,0
+E:/mask_detection/face_mask/JPEGImages/test_00000180.jpg 103,42,136,86,1
+E:/mask_detection/face_mask/JPEGImages/test_00000589.jpg 353,32,471,183,1
+E:/mask_detection/face_mask/JPEGImages/test_00000235.jpg 161,42,228,111,1
+E:/mask_detection/face_mask/JPEGImages/test_00001545.jpg 364,71,496,253,1
+E:/mask_detection/face_mask/JPEGImages/test_00000528.jpg 199,179,240,226,1 529,137,560,156,1
+E:/mask_detection/face_mask/JPEGImages/test_00001943.jpg 43,29,215,246,1
+E:/mask_detection/face_mask/JPEGImages/test_00002545.jpg 254,88,314,179,1 480,166,512,227,0
+E:/mask_detection/face_mask/JPEGImages/test_00001678.jpg 469,220,700,500,1 102,281,307,540,1
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_353.jpg 465,59,575,211,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_811.jpg 494,134,587,261,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_753.jpg 354,8,740,496,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_420.jpg 638,50,690,124,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_150.jpg 335,127,495,358,0
+E:/mask_detection/face_mask/JPEGImages/40_Gymnastics_Gymnastics_40_47.jpg 586,66,658,168,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_224.jpg 582,246,664,338,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_108.jpg 186,94,284,244,0 746,38,854,200,0
+E:/mask_detection/face_mask/JPEGImages/27_Spa_Spa_27_372.jpg 542,316,848,474,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_740.jpg 216,212,402,478,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_283.jpg 215,45,301,157,0 800,58,838,164,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_728.jpg 388,87,450,181,0 236,79,296,156,0 79,71,148,168,0 564,161,619,236,0 729,13,790,105,0 902,74,964,159,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_398.jpg 482,684,560,801,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_771.jpg 320,114,536,395,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_399.jpg 602,44,826,352,0 714,520,812,614,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_330.jpg 496,180,586,284,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_767.jpg 482,38,622,232,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_595.jpg 546,158,704,347,0 71,635,234,858,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_412.jpg 315,161,569,494,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_26.jpg 179,359,720,927,0
+E:/mask_detection/face_mask/JPEGImages/49_Greeting_peoplegreeting_49_905.jpg 384,90,484,226,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_891.jpg 962,485,1023,585,0 590,557,655,636,0 510,535,595,640,0 257,516,328,604,0 157,583,174,603,0 0,583,53,673,0 361,587,372,600,0 758,572,773,591,0 835,568,846,584,0 329,596,343,614,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_718.jpg 661,303,679,327,0 718,303,737,325,0 763,298,780,321,0 806,307,822,326,0 815,234,831,258,0 694,226,712,248,0 644,223,660,247,0 591,225,609,245,0 854,294,872,319,0 775,387,794,412,0 826,428,843,453,0 722,410,740,433,0 674,432,693,451,0 617,421,635,445,0 540,419,558,443,0 753,213,771,235,0 179,295,195,313,0 232,300,249,321,0 270,292,286,312,0 306,304,321,323,0 348,302,365,325,0 385,299,400,320,0 417,300,432,320,0 459,291,477,310,0 196,399,216,423,0 261,413,280,438,0 333,412,351,438,0 415,412,433,436,0 468,384,484,407,0 89,239,107,257,0 132,247,147,265,0 173,240,188,255,0 212,234,226,255,0 262,212,281,238,0 321,220,337,241,0 368,224,385,244,0 429,230,444,248,0 497,238,513,257,0 536,222,554,245,0 569,298,587,322,0 618,308,633,327,0 942,331,961,348,0 907,403,926,427,0 859,398,877,422,0 123,428,144,451,0 516,301,534,320,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_754.jpg 236,106,404,324,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_818.jpg 200,434,239,501,0 693,500,744,598,0
+E:/mask_detection/face_mask/JPEGImages/20_Family_Group_Family_Group_20_27.jpg 909,335,974,419,0 786,187,862,291,0 718,230,777,312,0 595,315,667,411,0 342,392,395,474,0 302,152,368,248,0 178,136,257,244,0 522,41,580,113,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_264.jpg 221,153,261,232,0 495,251,547,316,0 621,230,667,289,0 700,288,740,339,0 271,414,346,508,0 111,488,124,499,0 84,548,99,563,0 139,517,152,531,0 197,523,212,542,0 210,563,225,581,0 170,575,189,594,0 138,552,152,567,0 98,585,120,607,0 105,654,114,664,0 120,646,130,656,0 140,640,149,650,0 155,630,164,640,0 173,626,183,637,0 190,615,200,625,0 207,614,217,624,0 634,506,661,546,0 870,260,957,413,0 855,99,876,129,0 775,564,803,601,0
+E:/mask_detection/face_mask/JPEGImages/27_Spa_Spa_27_305.jpg 120,214,516,478,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_taketouristphotos_52_510.jpg 238,425,254,447,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_245.jpg 228,138,770,956,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_taketouristphotos_52_332.jpg 365,130,388,161,0 445,185,459,209,0 780,145,808,180,0 706,143,719,159,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_963.jpg 314,230,703,827,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_932.jpg 424,103,564,313,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimming_41_714.jpg 492,246,604,400,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_666.jpg 382,190,486,294,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_354.jpg 356,127,474,285,0 674,198,801,371,0 594,300,668,396,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_316.jpg 358,100,410,180,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_58.jpg 206,160,480,644,0 402,194,750,578,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_167.jpg 374,395,835,984,0 557,17,969,565,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_880.jpg 424,98,572,304,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimming_41_184.jpg 472,458,534,550,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_285.jpg 424,156,544,338,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_478.jpg 595,112,733,306,0 323,87,478,298,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_165.jpg 253,57,327,165,0 594,125,658,216,0 730,111,777,211,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_517.jpg 354,112,478,292,0
+E:/mask_detection/face_mask/JPEGImages/59_peopledrivingcar_peopledrivingcar_59_882.jpg 502,122,684,366,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_902.jpg 274,339,822,1105,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_568.jpg 379,331,758,766,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_871.jpg 432,629,517,751,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_9.jpg 736,103,775,155,0 914,132,955,184,0 119,151,155,192,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimming_41_715.jpg 258,250,500,548,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_356.jpg 208,52,328,222,0 710,66,846,258,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_764.jpg 170,64,534,578,0
+E:/mask_detection/face_mask/JPEGImages/59_peopledrivingcar_peopledrivingcar_59_269.jpg 198,274,234,326,0 683,159,719,207,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_1005.jpg 290,350,717,929,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_269.jpg 592,142,962,684,0 286,202,618,630,0
+E:/mask_detection/face_mask/JPEGImages/39_Ice_Skating_Ice_Skating_39_144.jpg 260,714,396,829,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_796.jpg 98,48,162,144,0 392,50,454,144,0 828,66,910,184,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_259.jpg 434,42,538,194,0 804,58,914,224,0 114,58,216,198,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_94.jpg 144,292,216,386,0 386,340,454,436,0 560,350,632,448,0 782,384,846,484,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_363.jpg 286,112,586,506,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_557.jpg 506,156,778,547,0 272,148,529,490,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_302.jpg 78,44,136,117,0 829,96,897,183,0 626,310,681,378,0 519,301,577,363,0 63,537,104,593,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_915.jpg 438,68,552,186,0 742,32,874,168,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_854.jpg 202,210,300,350,0 364,252,446,368,0 548,308,638,418,0 750,202,852,358,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_917.jpg 891,139,977,233,0 809,210,876,285,0 770,236,818,307,0 611,277,670,348,0 424,305,478,370,0 323,349,376,405,0 286,335,321,384,0 186,369,221,406,0 240,378,273,424,0 102,387,140,429,0 53,435,81,465,0 155,417,178,446,0 24,407,36,427,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_577.jpg 468,105,864,649,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_329.jpg 508,56,636,258,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_taketouristphotos_52_278.jpg 414,384,502,498,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_271.jpg 414,152,600,385,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_924.jpg 271,426,508,682,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_445.jpg 536,54,604,142,1 828,84,900,182,1 88,116,142,184,1
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_760.jpg 325,240,769,902,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_960.jpg 398,94,614,362,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_835.jpg 448,92,588,298,0 540,116,682,310,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_260.jpg 138,228,272,440,0 506,250,628,412,0 828,122,980,342,0
+E:/mask_detection/face_mask/JPEGImages/39_Ice_Skating_iceskiing_39_777.jpg 690,234,746,314,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_282.jpg 666,76,824,312,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_848.jpg 458,120,560,202,0
+E:/mask_detection/face_mask/JPEGImages/59_peopledrivingcar_peopledrivingcar_59_872.jpg 614,42,696,150,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_93.jpg 608,224,668,302,0 222,208,282,312,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_715.jpg 210,320,339,554,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_549.jpg 96,28,168,134,0 350,48,416,148,0 606,38,674,144,0 866,40,946,158,0
+E:/mask_detection/face_mask/JPEGImages/27_Spa_Spa_27_228.jpg 465,270,677,495,0 402,719,614,939,0
+E:/mask_detection/face_mask/JPEGImages/49_Greeting_peoplegreeting_49_168.jpg 310,84,374,178,0 662,54,730,152,0
+E:/mask_detection/face_mask/JPEGImages/59_peopledrivingcar_peopledrivingcar_59_95.jpg 586,146,726,350,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_270.jpg 311,119,678,601,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_3.jpg 182,30,502,512,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_557.jpg 402,184,500,304,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_230.jpg 422,274,568,422,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_688.jpg 329,153,681,620,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_781.jpg 374,88,668,462,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_787.jpg 506,117,717,430,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_75.jpg 268,174,396,438,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_919.jpg 598,136,820,396,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_752.jpg 384,183,507,339,0 583,273,694,408,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_675.jpg 608,2,838,258,0 188,142,432,466,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_174.jpg 404,82,496,210,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_taketouristphotos_52_78.jpg 789,292,811,323,0 845,265,867,297,0 907,278,926,309,0 958,288,977,319,0 977,292,999,326,0 311,283,337,321,0 220,267,236,304,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_527.jpg 400,290,486,410,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_246.jpg 457,263,496,313,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_397.jpg 503,201,613,337,0 409,739,486,830,0 362,762,404,826,0 0,757,28,850,0 823,740,864,800,0 200,773,246,826,0
+E:/mask_detection/face_mask/JPEGImages/45_Balloonist_Balloonist_45_121.jpg 249,146,261,165,0 355,191,381,226,0 464,274,497,315,0 648,154,695,200,0 335,203,365,241,0 419,269,441,315,0 858,183,899,253,0 513,154,531,175,0 388,257,417,306,0 20,130,29,143,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_920.jpg 367,56,642,485,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimming_41_189.jpg 724,276,872,388,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_64.jpg 428,182,660,521,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_431.jpg 248,245,659,729,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_390.jpg 414,157,547,281,0
+E:/mask_detection/face_mask/JPEGImages/49_Greeting_peoplegreeting_49_324.jpg 565,294,604,353,0 504,291,526,332,0 384,229,409,253,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_228.jpg 444,115,485,170,0 273,156,312,208,0 607,100,655,159,0 843,37,897,104,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_352.jpg 239,254,662,790,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_253.jpg 350,57,406,154,0 483,344,523,402,0 657,120,716,203,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_601.jpg 132,432,280,578,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_645.jpg 380,368,524,552,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_998.jpg 286,184,422,356,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_229.jpg 470,212,670,460,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_817.jpg 383,162,646,584,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_748.jpg 173,299,579,665,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_393.jpg 387,279,452,377,0 730,216,800,319,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_475.jpg 555,360,608,451,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_1013.jpg 289,348,463,602,0 569,294,783,569,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_448.jpg 445,301,465,333,0 369,295,386,318,0 71,254,93,284,0 225,292,239,310,0 547,301,564,328,0 673,289,696,323,0 824,285,849,318,0 927,320,945,342,0 271,307,286,321,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_100.jpg 354,164,546,450,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_327.jpg 359,212,531,484,0 588,144,748,410,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_114.jpg 471,279,642,474,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_167.jpg 416,122,602,372,0
+E:/mask_detection/face_mask/JPEGImages/39_Ice_Skating_Ice_Skating_39_275.jpg 584,100,638,188,0
+E:/mask_detection/face_mask/JPEGImages/49_Greeting_peoplegreeting_49_555.jpg 851,208,912,286,0 851,405,937,535,0 656,259,754,380,0 722,158,746,186,0 544,196,630,296,0 249,116,282,154,0 356,104,382,137,0 442,308,501,379,0 467,187,499,236,0 456,222,482,260,0 409,232,442,272,0 187,119,246,261,0 340,250,408,318,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_589.jpg 456,91,559,238,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_151.jpg 624,146,778,366,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_177.jpg 355,370,468,501,0 463,305,559,451,0
+E:/mask_detection/face_mask/JPEGImages/30_Surgeons_Surgeons_30_506.jpg 262,216,738,848,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_375.jpg 136,66,206,154,0 502,56,576,168,0 820,60,890,160,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_87.jpg 501,227,674,472,0 91,619,160,710,0
+E:/mask_detection/face_mask/JPEGImages/20_Family_Group_Family_Group_20_730.jpg 128,136,324,384,0 398,178,578,438,0 542,210,742,484,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_532.jpg 458,371,482,394,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_22.jpg 470,242,640,486,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_742.jpg 480,298,610,402,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_343.jpg 96,76,166,162,0 298,96,360,182,0 494,72,556,162,0 700,92,764,168,0 886,74,946,156,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_331.jpg 290,188,534,522,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_93.jpg 146,218,258,366,0 588,74,706,236,0
+E:/mask_detection/face_mask/JPEGImages/27_Spa_Spa_27_348.jpg 344,432,426,498,0 416,150,480,222,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_895.jpg 390,228,801,729,0
+E:/mask_detection/face_mask/JPEGImages/39_Ice_Skating_Ice_Skating_39_170.jpg 501,176,616,323,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_53.jpg 563,338,743,584,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_49.jpg 344,347,428,485,0 539,353,629,470,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_775.jpg 246,30,314,112,0 758,34,832,142,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_taketouristphotos_52_568.jpg 368,174,404,225,0 471,177,505,221,0 801,219,837,264,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_681.jpg 190,175,216,211,0 277,168,302,200,0 221,258,247,291,0 140,271,163,305,0 256,211,278,240,0 197,217,219,248,0 225,231,251,266,0 334,203,359,237,0 293,277,317,307,0 373,238,399,273,0 526,220,554,260,0 419,214,442,244,0 369,174,393,207,0 448,189,467,220,0 525,170,550,200,0 804,212,828,240,0 773,170,800,203,0 691,180,716,213,0 725,232,750,261,0 742,263,770,294,0 650,238,673,275,0 579,209,605,248,0 614,179,639,212,0 509,217,535,244,0 648,228,669,256,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_357.jpg 148,116,258,260,0 590,192,702,344,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_782.jpg 406,88,592,320,0 608,68,724,284,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_499.jpg 252,184,464,442,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_815.jpg 235,292,722,936,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_126.jpg 314,110,392,226,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_107.jpg 391,177,565,435,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_630.jpg 789,135,852,227,0 552,425,634,499,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_875.jpg 236,44,410,278,0 800,48,864,134,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_276.jpg 254,8,844,668,0
+E:/mask_detection/face_mask/JPEGImages/39_Ice_Skating_Ice_Skating_39_49.jpg 599,220,722,368,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_192.jpg 282,146,370,262,0 492,256,590,362,0 658,22,764,182,0 900,8,1018,144,0
+E:/mask_detection/face_mask/JPEGImages/45_Balloonist_Balloonist_45_102.jpg 529,97,855,744,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_865.jpg 106,44,158,110,0 490,76,598,234,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_513.jpg 492,100,628,316,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_548.jpg 182,765,236,832,0 479,57,589,198,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_830.jpg 338,120,538,412,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_670.jpg 334,135,542,423,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_84.jpg 306,202,402,346,0 450,178,618,378,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_461.jpg 422,142,606,383,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_26.jpg 576,188,709,313,0 218,356,338,499,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_242.jpg 395,283,570,497,0
+E:/mask_detection/face_mask/JPEGImages/39_Ice_Skating_Ice_Skating_39_156.jpg 566,44,631,143,0 318,47,357,95,0 715,16,760,66,0 456,90,507,185,0
+E:/mask_detection/face_mask/JPEGImages/27_Spa_Spa_27_879.jpg 416,222,612,504,0
+E:/mask_detection/face_mask/JPEGImages/20_Family_Group_Family_Group_20_227.jpg 300,206,422,388,0 638,172,770,378,0 476,478,582,602,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimming_41_58.jpg 242,282,482,442,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_734.jpg 714,341,733,364,0 655,341,675,367,0 602,330,623,357,0 536,340,556,364,0 487,340,505,368,0 410,312,431,339,0 328,311,348,337,0 246,304,268,332,0 151,286,177,319,0 61,296,87,322,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_17.jpg 179,103,213,145,0 392,129,431,176,0 506,159,546,204,0 581,144,624,189,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_114.jpg 274,915,693,1405,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_419.jpg 142,46,236,178,0 588,94,762,334,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_636.jpg 724,90,804,214,0
+E:/mask_detection/face_mask/JPEGImages/27_Spa_Spa_27_691.jpg 366,182,566,392,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_754.jpg 350,197,618,585,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_652.jpg 460,106,514,174,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_691.jpg 480,174,680,478,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_759.jpg 447,580,618,775,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_389.jpg 198,68,278,198,0 644,48,758,212,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_520.jpg 147,310,255,486,0 689,318,804,484,0
+E:/mask_detection/face_mask/JPEGImages/59_peopledrivingcar_peopledrivingcar_59_117.jpg 204,118,358,360,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_90.jpg 204,145,402,392,0 748,52,789,99,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_161.jpg 389,130,591,419,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_610.jpg 122,26,184,116,0 396,32,452,114,0 628,30,684,108,0 870,42,926,130,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_33.jpg 106,70,192,188,0 406,96,486,202,0 786,52,862,170,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_545.jpg 222,170,322,306,0 444,168,536,296,0 656,108,764,244,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_341.jpg 414,218,610,459,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_324.jpg 469,329,533,398,0 158,693,240,767,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_402.jpg 299,196,684,719,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_687.jpg 268,24,428,180,0
+E:/mask_detection/face_mask/JPEGImages/61_Street_Battle_streetfight_61_843.jpg 124,106,272,292,0 428,112,556,286,0 772,100,902,296,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_300.jpg 272,84,424,288,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_636.jpg 238,158,356,306,0 514,60,638,216,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_119.jpg 291,162,541,513,0 720,294,808,470,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_759.jpg 46,559,64,586,0 119,560,136,589,0 202,553,221,580,0 287,548,306,577,0 368,545,386,573,0 456,562,476,592,0 535,540,559,573,0 632,554,653,585,0 726,545,750,579,0 832,552,858,585,0 938,539,962,574,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_680.jpg 388,268,409,293,0 920,119,945,157,0 532,135,561,176,0 519,697,622,840,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_854.jpg 642,6,702,122,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_693.jpg 262,410,480,712,0 109,65,229,227,0 823,76,940,236,0 525,30,579,110,0 542,215,597,289,0 481,36,507,74,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_368.jpg 278,178,410,352,0 576,68,714,252,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_50.jpg 588,148,658,242,0 670,236,744,344,0
+E:/mask_detection/face_mask/JPEGImages/30_Surgeons_Surgeons_30_535.jpg 286,187,726,871,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_70.jpg 476,300,560,392,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_807.jpg 418,110,588,376,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_233.jpg 240,79,354,275,0 360,70,492,266,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_427.jpg 483,303,616,455,0 65,697,240,877,0 243,809,332,909,0 697,847,781,973,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_253.jpg 325,123,371,184,0 431,159,477,217,0 969,321,986,345,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_187.jpg 399,159,603,441,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_218.jpg 156,42,246,190,0 462,18,524,108,0 730,52,844,214,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_991.jpg 464,142,536,238,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimming_41_36.jpg 304,276,498,558,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_503.jpg 193,64,285,202,0 782,18,863,147,0
+E:/mask_detection/face_mask/JPEGImages/27_Spa_Spa_27_884.jpg 466,232,694,528,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_66.jpg 594,96,896,506,0
+E:/mask_detection/face_mask/JPEGImages/49_Greeting_peoplegreeting_49_145.jpg 148,160,312,406,0 410,252,574,472,0 340,26,482,216,0 570,110,746,326,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimming_41_345.jpg 378,126,512,260,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_910.jpg 399,96,507,261,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_874.jpg 144,381,670,1033,0
+E:/mask_detection/face_mask/JPEGImages/49_Greeting_peoplegreeting_49_982.jpg 209,70,283,176,0 434,136,498,207,0 397,104,434,170,0 330,102,382,163,0 284,113,325,159,0 22,135,46,160,0 812,109,871,216,0 612,67,687,161,0 578,95,648,183,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_63.jpg 689,189,732,233,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_497.jpg 370,147,432,235,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_520.jpg 230,230,640,796,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_840.jpg 147,516,206,665,0 451,491,497,556,0 470,435,517,489,0 246,248,256,263,0 224,250,235,258,0 322,241,331,254,0 345,285,366,312,0 572,381,580,391,0 526,388,532,397,0 662,329,668,336,0 871,374,880,385,0 911,387,917,398,0 305,254,311,268,0 384,252,391,273,0 542,302,547,308,0 537,330,542,336,0 612,346,618,356,0 617,329,622,336,0 633,348,639,354,0 666,352,671,359,0 678,335,684,341,0 668,339,673,345,0 896,338,901,346,0 881,333,886,340,0 870,331,874,336,0 843,329,848,335,0 1011,415,1019,427,0 750,366,757,372,0 754,334,759,341,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_126.jpg 393,243,504,414,0 676,75,802,252,0 943,9,1021,123,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_404.jpg 472,65,597,213,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimming_41_532.jpg 229,60,241,87,0 257,48,280,81,0 414,54,434,74,0 545,140,560,155,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_258.jpg 550,185,689,312,0 415,135,445,175,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_152.jpg 544,46,900,474,0
+E:/mask_detection/face_mask/JPEGImages/40_Gymnastics_Gymnastics_40_762.jpg 580,441,703,624,0
+E:/mask_detection/face_mask/JPEGImages/20_Family_Group_Family_Group_20_100.jpg 162,150,232,240,0 306,156,378,248,0 494,172,580,272,0 688,194,770,300,0 874,36,976,170,0
+E:/mask_detection/face_mask/JPEGImages/27_Spa_Spa_27_648.jpg 666,517,673,527,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_228.jpg 473,143,504,185,0 531,191,563,228,0 594,161,624,204,0 346,152,379,198,0 389,168,419,208,0 774,82,807,148,0
+E:/mask_detection/face_mask/JPEGImages/40_Gymnastics_Gymnastics_40_521.jpg 244,104,306,191,0 317,425,381,501,0 490,313,558,406,0 641,90,702,157,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_586.jpg 588,202,840,466,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_267.jpg 350,146,506,366,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_273.jpg 22,308,32,335,0 61,296,86,323,0 128,308,155,333,0 178,291,209,327,0 253,292,274,317,0 304,297,327,329,0 262,268,281,290,0 286,276,307,296,0 331,321,362,359,0 351,257,375,286,0 325,270,345,294,0 342,218,364,238,0 439,91,493,167,0 556,204,574,228,0 598,264,622,291,0 665,254,688,284,0 694,250,724,288,0 618,292,656,340,0 701,292,736,333,0 758,297,798,343,0 763,250,796,286,0 793,292,822,336,0 882,277,924,327,0 882,239,919,276,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_779.jpg 244,54,320,158,0 714,52,790,160,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_127.jpg 571,8,686,152,0 237,35,349,187,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_528.jpg 416,88,520,192,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_696.jpg 818,100,930,236,0 128,132,230,274,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_446.jpg 546,253,796,584,0 427,253,632,567,0
+E:/mask_detection/face_mask/JPEGImages/39_Ice_Skating_Ice_Skating_39_1.jpg 405,201,519,366,0
+E:/mask_detection/face_mask/JPEGImages/45_Balloonist_Balloonist_45_733.jpg 264,24,504,332,0 618,164,802,404,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_855.jpg 248,136,348,258,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_475.jpg 640,206,777,456,0 324,176,544,527,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimming_41_231.jpg 490,242,584,374,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_496.jpg 182,180,223,233,0 317,188,360,240,0 440,148,482,202,0 507,186,551,245,0 617,140,671,214,0 774,164,822,233,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_828.jpg 285,237,670,739,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_49.jpg 238,212,346,370,0 602,232,718,404,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_371.jpg 880,256,1008,517,0 69,299,266,579,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_579.jpg 411,528,484,634,0 495,550,567,645,0 225,886,253,925,0 691,902,714,929,0 734,881,758,905,0 775,884,801,914,0 792,944,820,978,0 812,913,835,940,0 833,892,859,923,0 889,920,916,951,0 982,886,1016,928,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_539.jpg 84,127,149,201,0 214,131,266,198,0 398,150,448,217,0 477,98,523,175,0 553,179,608,245,0 685,119,739,193,0 832,127,890,193,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_120.jpg 318,110,349,146,0 354,350,394,405,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_43.jpg 300,50,408,208,0 658,26,772,198,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_182.jpg 414,144,570,388,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_469.jpg 210,68,290,204,0 468,96,558,248,0 716,336,780,442,0 958,286,1012,394,0 760,224,858,370,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_485.jpg 918,188,972,250,0 858,147,905,209,0 785,67,836,138,0 651,13,704,81,0 515,157,564,224,0 436,94,492,160,0 352,80,408,146,0 302,35,345,104,0 296,2,342,60,0 79,202,127,266,0 9,151,59,220,0 15,0,69,54,0 764,0,810,61,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_267.jpg 170,94,408,436,0 424,206,642,474,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_799.jpg 807,43,874,132,0 480,53,555,147,0 133,54,205,147,0 242,104,273,141,0 303,120,324,147,0 81,97,102,132,0 0,113,12,150,0 41,117,67,139,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_390.jpg 448,88,604,300,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_610.jpg 462,102,630,330,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_774.jpg 642,74,820,303,0 430,60,529,167,0 494,559,524,597,0 189,586,204,603,0 179,566,188,578,0 206,574,215,586,0 265,595,273,608,0 362,552,376,570,0 273,540,281,552,0 249,552,257,563,0 20,553,40,573,0 155,595,163,605,0 430,580,440,593,0 196,546,203,558,0 172,625,181,639,0 162,614,171,627,0 254,569,264,581,0 230,546,238,558,0 232,585,241,593,0 270,622,279,634,0 293,557,301,568,0 189,539,198,552,0 169,551,179,565,0 231,621,242,634,0 296,599,301,608,0 283,583,289,592,0 206,538,214,544,0 171,542,180,551,0 236,591,246,603,0 208,591,214,597,0 178,582,183,591,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_501.jpg 315,66,451,234,0 626,156,757,300,0 876,116,901,160,0 87,137,112,164,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_291.jpg 640,50,792,246,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_334.jpg 471,377,653,607,0 834,919,933,1084,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_332.jpg 290,38,396,110,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_855.jpg 268,104,394,270,0 476,208,536,314,0 744,132,808,222,0
+E:/mask_detection/face_mask/JPEGImages/30_Surgeons_Surgeons_30_943.jpg 425,301,850,873,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_235.jpg 491,256,584,398,0
+E:/mask_detection/face_mask/JPEGImages/59_peopledrivingcar_peopledrivingcar_59_202.jpg 692,152,874,388,0 430,178,546,350,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_401.jpg 570,122,690,290,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_992.jpg 422,122,656,416,0
+E:/mask_detection/face_mask/JPEGImages/49_Greeting_peoplegreeting_49_3.jpg 803,168,891,284,0 764,60,848,167,0 541,63,622,166,0 315,133,400,236,0 201,101,273,222,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_270.jpg 502,104,696,358,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_287.jpg 136,144,238,272,0 414,56,518,200,0 764,94,890,254,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_777.jpg 82,230,228,384,0 292,108,436,280,0 584,312,720,494,0 902,226,1022,406,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_314.jpg 243,149,376,325,0 50,360,56,371,0 945,437,972,468,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_755.jpg 480,129,722,491,0 933,301,970,359,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_943.jpg 325,205,674,681,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_21.jpg 410,253,603,539,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_241.jpg 428,96,550,276,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_936.jpg 600,68,676,210,0
+E:/mask_detection/face_mask/JPEGImages/39_Ice_Skating_Ice_Skating_39_362.jpg 228,485,303,587,0 731,554,803,674,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_220.jpg 109,151,152,206,0 529,151,561,195,0 793,134,841,200,0 181,702,221,754,0 504,704,543,755,0 834,672,873,725,0
+E:/mask_detection/face_mask/JPEGImages/30_Surgeons_Surgeons_30_563.jpg 303,260,715,837,0
+E:/mask_detection/face_mask/JPEGImages/30_Surgeons_Surgeons_30_53.jpg 652,260,732,362,0 766,216,832,304,0 860,178,928,264,0 204,160,276,250,0 82,260,170,364,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_223.jpg 484,316,816,717,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimming_41_681.jpg 473,125,512,176,0 608,173,636,209,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_134.jpg 465,333,561,471,0
+E:/mask_detection/face_mask/JPEGImages/45_Balloonist_Balloonist_45_9.jpg 452,184,588,328,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_721.jpg 293,345,700,849,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_640.jpg 693,171,859,423,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_116.jpg 551,81,645,216,0 145,163,214,257,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_392.jpg 234,185,320,310,0 555,80,635,189,0
+E:/mask_detection/face_mask/JPEGImages/30_Surgeons_Surgeons_30_539.jpg 321,234,714,768,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_254.jpg 606,42,714,202,0 572,68,640,218,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_758.jpg 44,230,312,604,0 584,162,842,542,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_210.jpg 434,128,538,286,0
+E:/mask_detection/face_mask/JPEGImages/27_Spa_Spa_27_546.jpg 248,154,326,270,0
+E:/mask_detection/face_mask/JPEGImages/27_Spa_Spa_27_613.jpg 390,138,736,408,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_537.jpg 346,58,706,504,0 586,18,1024,572,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_457.jpg 248,66,762,730,0
+E:/mask_detection/face_mask/JPEGImages/49_Greeting_peoplegreeting_49_407.jpg 721,101,819,240,0
+E:/mask_detection/face_mask/JPEGImages/30_Surgeons_Surgeons_30_11.jpg 84,424,168,536,0 406,240,512,374,0 540,192,628,294,0 746,218,842,326,0 782,412,862,512,0 836,54,906,162,0 682,94,752,188,0 498,30,568,118,0 378,82,454,186,0 262,102,328,196,0 194,232,264,328,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_163.jpg 98,161,117,192,0 246,171,271,216,0 332,180,348,202,0 399,179,416,201,0 449,159,473,191,0 494,160,515,197,0 575,80,610,133,0 672,85,709,148,0 547,138,570,170,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_188.jpg 571,344,667,488,0 304,229,403,354,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_204.jpg 396,232,526,458,0
+E:/mask_detection/face_mask/JPEGImages/30_Surgeons_Surgeons_30_490.jpg 290,333,786,1067,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_346.jpg 240,339,772,1078,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_taketouristphotos_52_97.jpg 246,286,430,444,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_573.jpg 414,192,650,518,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_723.jpg 230,6,878,740,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_329.jpg 592,94,621,127,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_428.jpg 596,134,674,240,0
+E:/mask_detection/face_mask/JPEGImages/9_Press_Conference_Press_Conference_9_595.jpg 252,156,576,610,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_408.jpg 281,309,372,439,0 443,128,520,239,0 712,329,794,434,0 528,723,624,851,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_593.jpg 724,184,784,252,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_397.jpg 422,174,584,420,0
+E:/mask_detection/face_mask/JPEGImages/9_Press_Conference_Press_Conference_9_615.jpg 350,158,648,516,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_165.jpg 196,3,514,312,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_79.jpg 670,163,706,217,0 705,152,740,204,0
+E:/mask_detection/face_mask/JPEGImages/39_Ice_Skating_iceskiing_39_249.jpg 507,87,551,137,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_242.jpg 419,212,751,690,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_953.jpg 518,256,677,489,0 655,107,820,382,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_392.jpg 442,214,570,330,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_866.jpg 364,894,451,993,0 545,771,623,879,0 187,825,256,945,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_623.jpg 244,90,420,398,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_325.jpg 298,262,746,886,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_252.jpg 383,14,418,62,0 558,33,583,78,0 791,26,832,76,0 933,26,974,77,0 651,10,690,60,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_842.jpg 343,134,518,381,0 743,574,918,818,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_653.jpg 476,150,746,512,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_1000.jpg 418,198,664,580,0 142,184,380,504,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_912.jpg 301,270,704,902,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_166.jpg 270,52,388,209,0 592,129,699,269,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_152.jpg 439,178,481,239,0 562,118,603,178,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_240.jpg 302,6,824,514,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_284.jpg 451,60,536,183,0 96,227,141,280,0
+E:/mask_detection/face_mask/JPEGImages/38_Tennis_Tennis_38_1029.jpg 414,146,514,290,0 594,178,712,336,0
+E:/mask_detection/face_mask/JPEGImages/27_Spa_Spa_27_559.jpg 554,212,750,324,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_813.jpg 390,154,595,453,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_353.jpg 365,82,442,194,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_189.jpg 422,22,492,144,0 590,16,662,114,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_534.jpg 391,43,419,77,0 404,250,419,267,0 374,476,405,518,0 765,160,820,225,0
+E:/mask_detection/face_mask/JPEGImages/42_Car_Racing_Nascar_42_911.jpg 510,168,788,490,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_962.jpg 354,220,582,502,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_728.jpg 3,126,704,951,0
+E:/mask_detection/face_mask/JPEGImages/61_Street_Battle_streetfight_61_833.jpg 162,24,470,456,0 580,124,872,460,0
+E:/mask_detection/face_mask/JPEGImages/19_Couple_Couple_19_563.jpg 77,393,196,502,0 186,42,285,163,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_136.jpg 337,34,357,54,0 369,26,398,60,0 409,18,444,64,0 462,18,478,42,0 486,29,508,60,0 586,84,761,311,0 74,543,106,581,0
+E:/mask_detection/face_mask/JPEGImages/61_Street_Battle_streetfight_61_556.jpg 398,92,474,202,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_237.jpg 552,170,644,316,0
+E:/mask_detection/face_mask/JPEGImages/30_Surgeons_Surgeons_30_636.jpg 282,192,639,781,0
+E:/mask_detection/face_mask/JPEGImages/49_Greeting_peoplegreeting_49_140.jpg 819,62,881,158,0 697,69,768,155,0 499,110,565,192,0 292,97,366,184,0 184,50,258,146,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_951.jpg 322,336,670,712,0
+E:/mask_detection/face_mask/JPEGImages/20_Family_Group_Family_Group_20_193.jpg 316,800,431,932,0 617,858,737,1013,0 562,843,642,1004,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_221.jpg 146,100,234,214,0 352,148,432,240,0 732,54,790,144,0 918,102,976,170,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_187.jpg 288,76,396,236,0 652,40,744,200,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_632.jpg 401,60,454,145,0 584,222,613,276,0 447,227,499,290,0 757,205,804,269,0 934,323,977,378,0 121,491,137,512,0 73,488,87,509,0 130,471,148,496,0 177,501,193,520,0 229,474,243,490,0 262,483,277,503,0 260,456,273,474,0 225,453,238,472,0 182,438,196,456,0 229,436,241,453,0 261,446,274,463,0 245,421,254,436,0 222,384,234,399,0 140,439,152,454,0 44,445,55,458,0 30,473,40,488,0 64,407,75,422,0 59,391,71,405,0 17,384,26,396,0 17,448,26,462,0 136,393,145,407,0 117,394,128,409,0 81,379,91,393,0 70,465,82,481,0 89,484,102,501,0 154,416,167,434,0 152,379,163,394,0 211,402,222,415,0 177,403,187,417,0 97,429,110,444,0 268,423,280,440,0 304,482,320,502,0 296,468,309,485,0 310,455,324,475,0 190,358,199,372,0 28,492,41,509,0 133,427,144,443,0 139,352,149,367,0 109,359,119,373,0 172,453,187,473,0 39,350,50,364,0 70,352,80,367,0 87,306,98,319,0 206,346,214,358,0 105,414,118,432,0 249,390,260,403,0 287,412,297,425,0 307,405,315,418,0 181,386,189,397,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_478.jpg 458,54,576,220,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_31.jpg 666,248,812,448,0 198,134,336,320,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_162.jpg 596,68,742,248,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_311.jpg 500,60,630,236,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_186.jpg 460,168,748,488,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_1028.jpg 505,238,658,437,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_893.jpg 152,284,274,402,0
+E:/mask_detection/face_mask/JPEGImages/16_Award_Ceremony_Awards_Ceremony_16_569.jpg 1,31,39,95,0 88,23,159,109,0 163,88,191,142,0 191,35,232,91,0 261,16,330,109,0 349,81,395,136,0 445,9,510,86,0 564,149,705,319,0 772,38,892,229,0 830,98,947,295,0
+E:/mask_detection/face_mask/JPEGImages/49_Greeting_peoplegreeting_49_572.jpg 657,190,701,262,0 463,233,513,296,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimmer_41_399.jpg 382,228,598,484,0
+E:/mask_detection/face_mask/JPEGImages/45_Balloonist_Balloonist_45_176.jpg 483,254,495,274,0 380,204,389,216,0 382,225,395,242,0 420,196,429,208,0 453,257,466,272,0 479,208,487,217,0 449,223,459,235,0 575,224,585,238,0 543,222,550,231,0 602,225,610,237,0 522,197,531,207,0 898,326,906,337,0 581,247,591,263,0 615,215,627,230,0 577,212,585,221,0 576,283,590,316,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_527.jpg 46,62,124,197,0
+E:/mask_detection/face_mask/JPEGImages/49_Greeting_peoplegreeting_49_519.jpg 332,102,347,121,0 525,310,554,345,0 552,219,590,267,0 669,220,694,254,0 653,241,675,269,0 744,227,770,251,0 856,231,877,253,0 898,235,916,257,0 885,231,902,256,0
+E:/mask_detection/face_mask/JPEGImages/4_Dancing_Dancing_4_1020.jpg 361,175,650,633,0
+E:/mask_detection/face_mask/JPEGImages/51_Dresses_wearingdress_51_273.jpg 366,256,448,346,0 646,244,718,340,0
+E:/mask_detection/face_mask/JPEGImages/27_Spa_Spa_27_32.jpg 668,380,884,530,0
+E:/mask_detection/face_mask/JPEGImages/39_Ice_Skating_Ice_Skating_39_793.jpg 511,554,807,895,0 844,985,870,1021,0 146,642,247,757,0 571,1076,611,1112,0 945,831,964,849,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_14.jpg 456,136,756,594,0
+E:/mask_detection/face_mask/JPEGImages/1_Handshaking_Handshaking_1_164.jpg 223,101,351,275,0 533,101,666,280,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_On_Location_13_477.jpg 493,283,568,398,0
+E:/mask_detection/face_mask/JPEGImages/52_Photographers_photographertakingphoto_52_462.jpg 306,276,374,354,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_Sequences_13_360.jpg 330,120,442,288,0 532,114,670,316,0
+E:/mask_detection/face_mask/JPEGImages/41_Swimming_Swimming_41_168.jpg 304,188,374,232,0
+E:/mask_detection/face_mask/JPEGImages/31_Waiter_Waitress_Waiter_Waitress_31_514.jpg 971,26,997,72,0 192,182,238,233,0 627,113,669,183,0 654,26,664,50,0 490,51,511,79,0 577,65,588,84,0 704,83,733,120,0 828,35,848,69,0 763,8,775,27,0 920,1,936,30,0 695,9,706,26,0 365,142,406,191,0 391,131,516,282,0 159,233,199,305,0 49,166,74,196,0 171,119,192,153,0 245,119,268,157,0 788,12,806,39,0
+E:/mask_detection/face_mask/JPEGImages/32_Worker_Laborer_Worker_Laborer_32_170.jpg 474,576,608,680,0
+E:/mask_detection/face_mask/JPEGImages/13_Interview_Interview_2_People_Visible_13_488.jpg 576,92,684,284,0
+E:/mask_detection/face_mask/JPEGImages/28_Sports_Fan_Sports_Fan_28_569.jpg 338,266,562,510,0 924,164,1024,386,0
