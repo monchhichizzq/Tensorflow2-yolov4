@@ -46,7 +46,6 @@ def yolo_head(feats, anchors, num_classes, input_shape, calc_loss=False):
     # 吧anchors转为tensor (1, 1, 1, 3, 2) (.., .., .., num_anchors, anchor_width+anchor_height)
     anchors_tensor =  tf.cast(tf.reshape(tf.constant(anchors), [1, 1, 1, num_anchors, 2]), feats.dtype)
 
-
     # 获得x，y的网格
     # feats: (batch, height, width, num_anchors*(num_classes + 5))
     grid_shape = tf.shape(feats)[1:3]  # 特征图(.., h, w, .., ..)
@@ -151,7 +150,7 @@ def box_iou(b1, b2):
     '''
 
     :param b1: tensor, shape: (None, None, 3, 4), predict boxes
-    :param b2: tensor, shape: (None, None, 3, 4), predict boxes
+    :param b2: tensor, shape: (None, None, 3, 4), true boxes
     :return:
 
     通过b1_xy 和 b1_wh计算 b1_mins_xy, b1_max_xy
@@ -169,6 +168,9 @@ def box_iou(b1, b2):
 
     IOU = intersection/b1_square+b2_sqaure-intersection
     '''
+
+    tf.print('prediction: ', b1.shape)
+    tf.print('truth: ', b2.shape)
 
     # 计算左上角的坐标和右下角的坐标
     # b1 = tf.expand_dims(b1, -2) # (None, None, 3, 1, 4)
@@ -210,8 +212,8 @@ def box_iou(b1, b2):
 def yolo_loss(args, anchors, num_classes, ignore_thresh=.5, label_smoothing=0.1, print_loss=False):
     policy = mixed_precision.Policy('float32')
     mixed_precision.set_policy(policy)
-    logger.info('Loss Compute dtype: %s' % policy.compute_dtype)
-    logger.info('Loss Variable dtype: %s' % policy.variable_dtype)
+    # logger.info('Loss Compute dtype: %s' % policy.compute_dtype)
+    #logger.info('Loss Variable dtype: %s' % policy.variable_dtype)
 
     # 一共有三层
     num_layers = len(anchors) // 3
@@ -219,31 +221,39 @@ def yolo_loss(args, anchors, num_classes, ignore_thresh=.5, label_smoothing=0.1,
     # 将预测结果和实际ground truth分开，args是[*model_body.output, *y_true]
     # y_true是一个列表，包含三个特征层，shape分别为(m,13,13,3,85),(m,26,26,3,85),(m,52,52,3,85)。
     # yolo_outputs是一个列表，包含三个特征层，shape分别为(m,13,13,255),(m,26,26,255),(m,52,52,255)。
+    #---------------------------------------------------------------------------------------------------#
+    #   将预测结果和实际ground truth分开，args是[*model_body.output, *y_true]
+    #   y_true是一个列表，包含三个特征层，shape分别为(m,13,13,3,85),(m,26,26,3,85),(m,52,52,3,85)。
+    #   yolo_outputs是一个列表，包含三个特征层，shape分别为(m,13,13,3,85),(m,26,26,3,85),(m,52,52,3,85)。
+    #---------------------------------------------------------------------------------------------------#
     y_true = args[num_layers:]
     yolo_outputs = args[:num_layers]
 
     for i in range(3):
         y_true[i] = tf.cast(y_true[i], dtype=tf.float32)
         yolo_outputs[i] = tf.cast(yolo_outputs[i], dtype=tf.float32)
-        logger.info('y_true: {}, type: {}'.format(y_true[i].shape, y_true[i].dtype))
-        logger.info('yolo_outputs {}, type: {}'.format(yolo_outputs[i].shape, yolo_outputs[i].dtype))
+        # logger.info('y_true: {}, type: {}'.format(y_true[i].shape, y_true[i].dtype))
+        # logger.info('yolo_outputs {}, type: {}'.format(yolo_outputs[i].shape, yolo_outputs[i].dtype))
 
+        tf.print('y_true:', (y_true[i].shape))
+        tf.print('y_pred:', (yolo_outputs[i].shape))
 
-    # 先验框
-    # 678为142,110,  192,243,  459,401
-    # 345为36,75,  76,55,  72,146
-    # 012为12,16,  19,36,  40,28
+    #-----------------------------------------------------------#
+    #   13x13的特征层对应的anchor是[142, 110], [192, 243], [459, 401]
+    #   26x26的特征层对应的anchor是[36, 75], [76, 55], [72, 146]
+    #   52x52的特征层对应的anchor是[12, 16], [19, 36], [40, 28]
+    #-----------------------------------------------------------#
     anchor_mask = [[6, 7, 8], [3, 4, 5], [0, 1, 2]] if num_layers == 3 else [[3, 4, 5], [1, 2, 3]]
 
-    # 得到input_shpae为608,608
+    # yolo outputs shape (bs 13 13 75), 上采样32倍则是input shape
     input_shape = tf.cast(tf.shape(yolo_outputs[0])[1:3] * 32, y_true[0].dtype)
+    # tf.print('loss input shape: ', tf.shape(yolo_outputs[0]), tf.shape(yolo_outputs[0])[1:3], input_shape)
 
     loss = 0
+    num_pos = 0
 
     # 取出每一张图片
     # m的值就是batch_size
-    # m = K.shape(yolo_outputs[0])[0]
-    # mf = K.cast(m, K.dtype(yolo_outputs[0]))
     batch_size_m = tf.shape(yolo_outputs[0])[0]
     batch_size = tf.cast(batch_size_m, yolo_outputs[0].dtype)
 
@@ -251,7 +261,6 @@ def yolo_loss(args, anchors, num_classes, ignore_thresh=.5, label_smoothing=0.1,
     # yolo_outputs是一个列表，包含三个特征层，shape分别为(m,13,13,255),(m,26,26,255),(m,52,52,255)。
     for l in range(num_layers):
         # 以第一个特征层(m, 13, 13, num_anchors, (num_classes+5))为例子
-
         # y_true: (batch, 13, 13, num_anchors, x,y,w,h, object, class)
         # Object mask ：在该点是否存在物体
         object_mask = y_true[l][..., 4:5]
@@ -275,13 +284,10 @@ def yolo_loss(args, anchors, num_classes, ignore_thresh=.5, label_smoothing=0.1,
 
         # 这个是解码后的预测的box的位置  (batch,13,13,3,4)
         pred_box = tf.keras.layers.concatenate([pred_xy, pred_wh])
-
-
+    
         # 找到负样本群组，第一步是创建一个数组，[]
         ignore_mask = tf.TensorArray(y_true[0].dtype, size=1, dynamic_size=True)
-
         object_mask_bool = K.cast(object_mask, 'bool') # (None, 13, 13, 3, 1)
-
 
         # 对每一张图片计算ignore_mask
         def loop_body(b, ignore_mask):
@@ -295,10 +301,19 @@ def yolo_loss(args, anchors, num_classes, ignore_thresh=.5, label_smoothing=0.1,
             # 取出第b副图内，真实存在的所有的box的参数
             # (None, None, 3, 4)
             true_box = tf.boolean_mask(y_true[l][b, ..., 0:4], object_mask_bool[b, ..., 0])
+            tf.print('true_box', true_box.shape)
 
             # 计算预测结果与真实情况的iou
             # 计算的结果是每个pred_box和其它所有真实框的iou
+            #-----------------------------------------------------------#
+            #   计算预测框与真实框的iou
+            #   pred_box    13,13,3,4 预测框的坐标
+            #   true_box    n,4 真实框的坐标
+            #   iou         13,13,3,n 预测框和真实框的iou
+            #-----------------------------------------------------------#
             iou = box_iou(pred_box[b], true_box) # (None, None, 3)
+
+
             best_iou = K.max(iou, axis=-1) # (None, None)
             # ciou = bbox_ciou(pred_box[b], true_box)
             # best_iou = tf.math.reduce_max(ciou, axis=-1)
@@ -309,14 +324,14 @@ def yolo_loss(args, anchors, num_classes, ignore_thresh=.5, label_smoothing=0.1,
 
         # 遍历所有的图片
         _, ignore_mask = tf.while_loop(lambda b, *args: b < batch_size_m, loop_body, [0, ignore_mask])
-        print('ignore_mask', ignore_mask)
+        tf.print('ignore_mask', ignore_mask)
 
         # 将每幅图的内容压缩，进行处理
         ignore_mask = ignore_mask.stack()
-        print('ignore_mask', ignore_mask)
+        # tf.print('ignore_mask_2', ignore_mask)
 
         ignore_mask = K.expand_dims(ignore_mask, -1)
-        print('ignore_mask', ignore_mask)
+        # tf.print('ignore_mask', ignore_mask)
 
         box_loss_scale = 2 - y_true[l][..., 2:3] * y_true[l][..., 3:4] # (2-wh)
 
@@ -343,8 +358,8 @@ def yolo_loss(args, anchors, num_classes, ignore_thresh=.5, label_smoothing=0.1,
         confidence_loss = K.sum(confidence_loss) / batch_size
         class_loss = K.sum(class_loss) / batch_size
         loss += location_loss + confidence_loss + class_loss
-        print('loss', loss.shape)
+        # print('loss', loss.shape)
     loss = K.expand_dims(loss, axis=-1)
-    print('loss', loss.shape)
+    # print('loss', loss.shape)
     return loss
 

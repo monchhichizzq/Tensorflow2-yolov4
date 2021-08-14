@@ -22,8 +22,7 @@ from Models.yolov4 import yolov4
 from Models.tiny_yolov4 import tiny_yolov4
 
 # Loss
-from Loss.yolo_loss import yolo_loss
-
+from Loss.loss import yolo_loss
 
 # utils
 from Utils.utils import get_classes, get_anchors
@@ -39,13 +38,9 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.mixed_precision import experimental as mixed_precision
 
 
-
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger('Prediction - yolov4')
 logger.setLevel(logging.DEBUG)
-
-
-
 
 
 class Prediction:
@@ -73,7 +68,6 @@ class Prediction:
         tf.compat.v1.disable_eager_execution() # 很重要
         self.sess = K.get_session()
         self.generate()
-
 
 
     def letterbox_image(self, image, size):

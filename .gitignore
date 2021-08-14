@@ -10,3 +10,15 @@ logs/
 input
 Demo/
 results/
+.DS_Store
+__pycache__
+*.py[cod]
+*$py.class
+bdd100k
+face_detection
+voc_obj/data
+bdd_2_voc
+images
+train_mask.py
+train.py
+data

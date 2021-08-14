@@ -20,7 +20,8 @@ class Data_augmentation():
                  hue=.1,
                  sat=1.5,
                  val=1.5,
-                 visual=True):
+                 visual=True,
+                 background_zero=True):
 
         self.h, self.w = input_shape
         self.max_boxes = max_boxes
@@ -29,6 +30,7 @@ class Data_augmentation():
         self.val = val
         self.jitter = jitter
         self.visual = visual
+        self.background_zero = background_zero
 
     def resize_image(self, image):
         # 对图像进行缩放并且进行长和宽的扭曲
@@ -50,6 +52,13 @@ class Data_augmentation():
         dx = int(np.random.rand() * (self.w - nw))
         dy = int(np.random.rand() * (self.h - nh))
         new_image = Image.new('RGB', (self.w, self.h), (128, 128, 128))
+
+         # background 0
+        if self.background_zero:
+            new_image = Image.new('RGB', (self.w, self.h), (0, 0, 0))
+        else:
+            new_image = Image.new('RGB', (self.w, self.h), (128, 128, 128))
+
         new_image.paste(image, (dx, dy))
         image = new_image
         return image, dx, dy
@@ -93,7 +102,7 @@ class Data_augmentation():
     def main_train(self, annotation_line):
         line = annotation_line.split()
         image = Image.open(line[0])
-        bbox = np.array([np.array(list(map(int, box.split(',')))) for box in line[1:]])
+        bbox = np.array([np.array(list(map(float, box.split(',')))) for box in line[1:]])
 
         self.iw, self.ih = image.size  # PIL image
         resized_image, nh, nw = self.resize_image(image)
@@ -124,19 +133,35 @@ class Data_augmentation():
     def main_val(self, annotation_line):
         line = annotation_line.split()
         image = Image.open(line[0])
-        box = np.array([np.array(list(map(int, box.split(',')))) for box in line[1:]])
+        box = np.array([np.array(list(map(float, box.split(',')))) for box in line[1:]])
 
         self.iw, self.ih = image.size  # PIL image
 
         # 对图像进行缩放
         nh = int(self.h)
         nw = int(self.w)
-        image = image.resize((nw, nh), Image.BICUBIC)
+        # print('')
+        # print('original image size: ', self.iw, self.ih)
+        # print('target image size: ', nw, nh)
+
+        # resize_factor =  nh / self.ih if self.ih >= self.iw else nw / self.iw
+        resize_factor = min(nw/self.iw, nh/self.ih)
+        # print('resize_factor', resize_factor)
+        rw = int(resize_factor * self.iw)
+        rh = int(resize_factor * self.ih)
+        # print('resize image size: ', rw, rh)
+
+        image = image.resize((rw, rh), Image.BICUBIC)
 
         # 将图像多余的部分加上灰条
-        dx = int((self.w - nw))
-        dy = int((self.h - nh))
-        new_image = Image.new('RGB', (self.w, self.h), (128, 128, 128))
+        dx = int((self.w - rw)//2)
+        dy = int((self.h - rh)//2)
+        
+        # background 0
+        if self.background_zero:
+            new_image = Image.new('RGB', (self.w, self.h), (0, 0, 0))
+        else:
+            new_image = Image.new('RGB', (self.w, self.h), (128, 128, 128))
         new_image.paste(image, (dx, dy))
         image = new_image
 
@@ -144,8 +169,8 @@ class Data_augmentation():
         box_data = np.zeros((self.max_boxes, 5))
         if len(box) > 0:
             np.random.shuffle(box)
-            box[:, [0, 2]] = box[:, [0, 2]] * nw / self.iw + dx
-            box[:, [1, 3]] = box[:, [1, 3]] * nh / self.ih + dy
+            box[:, [0, 2]] = box[:, [0, 2]] * rw / self.iw + dx
+            box[:, [1, 3]] = box[:, [1, 3]] * rh / self.ih + dy
             box[:, 0:2][box[:, 0:2] < 0] = 0
             box[:, 2][box[:, 2] > self.w] = self.w
             box[:, 3][box[:, 3] > self.h] = self.h

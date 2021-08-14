@@ -11,8 +11,8 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description='This a script using K-means to generate the anchors for the target dataset')
     parser.add_argument('-size', default=(416, 416), help="Input image size", action="store_true")
     parser.add_argument('-anchors_num',default=9, help="Proposed anchor numbers", action="store_true") #9
-    parser.add_argument('-path', default='E:/mask_detection/face_mask/Annotations', help="Read dataset annotations", action="store_true")
-    parser.add_argument('-save_path', default="data_txt/Mask_yolov4_anchors_416_416.txt", help="Txt file",
+    parser.add_argument('-path', default='/Users/babalia/Desktop/Applications/object_detection/yolov5_samples/data/voc/train/VOCdevkit/VOC2012/Annotations', help="Read dataset annotations", action="store_true")
+    parser.add_argument('-save_path', default="data_txt/voc_obj/yolov4_anchors_416_416.txt", help="Txt file",
                         action="store_true")
     args = parser.parse_args()
     return args
@@ -21,13 +21,20 @@ def parse_arguments():
 # 608
 # 12, 16,  19, 36,  40, 28,  36, 75,  76, 55,  72, 146,  142, 110,  192, 243,  459, 401
 
+# voc2012 416 x 416 
+# 14,27, 34,47, 42,99, 67,186, 104,101, 122,261, 212,326, 232,170, 363,361
+# voc2012 608 x 608
+# 23,37, 40,97, 72,194, 86,72, 132,322, 169,162, 243,451, 364,267, 503,529
+
 def cas_iou(box,cluster):
+    '''
+    计算iou: 
+    '''
     x = np.minimum(cluster[:,0],box[0])
     y = np.minimum(cluster[:,1],box[1])
 
     intersection = x * y
     area1 = box[0] * box[1]
-
     area2 = cluster[:,0] * cluster[:,1]
     iou = intersection / (area1 + area2 -intersection)
 
@@ -80,6 +87,7 @@ def load_data(path):
         height = int(tree.findtext('./size/height'))
         width = int(tree.findtext('./size/width'))
         # 对于每一个目标都获得它的宽高
+        # normalized 
         for obj in tree.iter('object'):
             xmin = int(float(obj.findtext('bndbox/xmin'))) / width
             ymin = int(float(obj.findtext('bndbox/ymin'))) / height
@@ -90,7 +98,7 @@ def load_data(path):
             ymin = np.float64(ymin)
             xmax = np.float64(xmax)
             ymax = np.float64(ymax)
-            # 得到宽高
+            # 得到宽高 width, height
             data.append([xmax-xmin,ymax-ymin])
     return np.array(data)
 
@@ -108,13 +116,16 @@ if __name__ == '__main__':
     # 存储格式为转化为比例后的width,height
     data = load_data(path) # 每一个xml每一个目标宽高
     
-    # 使用k聚类算法
+    # 使用k聚类算法 
+    # 9个聚类框都是归一化的
     out = kmeans(data, anchors_num)
+    print('normalized anchors: \n', out)
+    # 根据 width 给所有anchor排序
     out = out[np.argsort(out[:,0])]
     print('IOU acc:{:.2f}%'.format(avg_iou(data,out) * 100))
-    print(out)
+    print('Argsorted normalized anchors: \n', out)
     data=[[out[i, 0] * SIZE[0], out[i,1]*SIZE[1]] for i in range(len(out))] # 宽高
-    print(data)
+    print('Argsorted unnormalized anchors: \n', data)
     # data = out*SIZE
     f = open(args.save_path, 'w')
     row = np.shape(data)[0]

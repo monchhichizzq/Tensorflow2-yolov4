@@ -96,8 +96,6 @@ class Data_augmentation_with_Mosaic():
         self.min_offset_y = 0.4
         self.scale_low = 1 - min(self.min_offset_x, self.min_offset_y)- 0.3# 改动
         self.scale_high = self.scale_low + 0.2 + 0.6# 改动
-        # print(self.scale_low, self.scale_high)
-
 
         self.max_boxes = max_boxes
         self.hue = hue
@@ -110,21 +108,24 @@ class Data_augmentation_with_Mosaic():
         self.visual = visual
 
 
-    def main(self):
+    def main(self, background_zero=True):
         image_datas = []
         box_datas = []
         index = 0
 
         for annotation_line in self.four_annotation_lines:
+            
             # 每一行进行分割
             line_content = annotation_line.split()
+        
             # 打开图片
             image = Image.open(line_content[0])
             image = image.convert("RGB")
+
             # 图片的大小
             iw, ih = image.size
             # 保存框的位置
-            box = np.array([np.array(list(map(int, box.split(',')))) for box in line_content[1:]])
+            box = np.array([np.array(list(map(float, box.split(',')))) for box in line_content[1:]])
 
             # 是否翻转图片
             flip = np.random.rand() < .5
@@ -163,8 +164,11 @@ class Data_augmentation_with_Mosaic():
             dx = self.place_x[index]
             dy = self.place_y[index]
 
-
-            new_image = Image.new('RGB', (self.w, self.h), (128, 128, 128))
+            if background_zero:
+                new_image = Image.new('RGB', (self.w, self.h), (0, 0, 0))
+            else:
+                new_image = Image.new('RGB', (self.w, self.h), (128, 128, 128))
+                
             new_image.paste(image, (dx, dy))
             image_data = np.array(new_image) / 255
 
@@ -214,20 +218,6 @@ class Data_augmentation_with_Mosaic():
         if len(new_boxes) > 0:
             if len(new_boxes) > self.max_boxes: new_boxes = new_boxes[:self.max_boxes]
             box_data[:len(new_boxes)] = new_boxes
-
-        if self.visual:
-
-            # print(new_image.shape, np.max(new_image), np.min(new_image))
-            new_image = np.array(new_image * 255., dtype=np.uint8)
-            # print(new_image.shape, np.max(new_image), np.min(new_image))
-
-            for box in box_data:
-                box = [int(b) for b in box]
-                cv2.rectangle(new_image, (box[0], box[1]), (box[2], box[3]), color=(255, 255, 255), thickness=1)
-
-            new_image = cv2.cvtColor(new_image, cv2.COLOR_RGB2BGR)
-            cv2.imshow('Image', new_image)
-            cv2.waitKey(1000)
 
         return new_image, box_data
 

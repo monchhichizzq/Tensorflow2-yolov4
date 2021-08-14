@@ -6,6 +6,8 @@
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+import sys
+sys.path.append(os.path.join(os.getcwd(), ".."))
 
 import logging
 import numpy as np
@@ -159,8 +161,8 @@ class yolov4:
 
 
 if __name__ == '__main__':
-    anchors_path = '../Preparation/data_txt/BDD100K_yolov4_anchors_416_416.txt'
-    class_path = '../Preparation/data_txt/bdd_classes18.txt'
+    anchors_path = '../Preparation/data_txt/voc_obj/yolov4_anchors_608_608.txt'
+    class_path = '../Preparation/data_txt/voc_obj/voc_names.txt'
     yolo_anchors = get_anchors(anchors_path)
     logger.info('Yolo anchors: \n {} \n Anchor shape: {} '.format(yolo_anchors, np.shape(yolo_anchors)))
     num_anchors = len(yolo_anchors)
@@ -170,7 +172,8 @@ if __name__ == '__main__':
     logger.info('Class number: {} '.format(num_classes))
     logger.info('Class names: \n {} '.format(class_names))
 
-    inputs = Input(shape=(416, 416, 3))
+    inputs = Input(shape=(608, 608, 3))
     model = yolov4(num_anchors= num_anchors//3, num_classes=num_classes, add_bias=False, add_bn=True)(inputs)
     model.summary()
     model.save('Yolov4body.h5')
+    print(*model.output)

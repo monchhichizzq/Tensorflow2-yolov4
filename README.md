@@ -1,16 +1,16 @@
-# Tensorflow_YoloV4_BDD100K
+# Tensorflow_YoloV4
 
 ---
 
 ## Table
-1. [Introduction](#Introduction)
-2. [Table](#Table)
-3. [Dataset](#Dataset)
-4. [Model](#Model)
-5. [Performance](#Preformance)
-6. [Run](#Run)
-7. [Results](#Results)
-8. [Demo](#Demo)
+- [Tensorflow_YoloV4](#tensorflow_yolov4)
+  - [Table](#table)
+  - [Dataset](#dataset)
+  - [Environment](#environment)
+  - [Model](#model)
+  - [Loss](#loss)
+  - [Performance](#performance)
+  - [Run](#run)
 
 ## Dataset
 BDD100K: A Large-scale Diverse Driving Video Database [Link](https://bair.berkeley.edu/blog/2018/05/30/bdd/)
@@ -46,15 +46,12 @@ Download the image and annotation data in the directory `BDD100K`:
 
 ``` 
 
-1. In `bdd_2_voc`, run `bdd_2_voc.py` to generate xml files (objet annotations) and txt files (image ids)
 
-     `python3 bdd_2_voc.py -bdd_folder ../../BDD100K -annotation Annotations_18 -image_ids ImageSets/Main` 
-
-2. In `Preparation`, translate VOC xml annotations to txt annotations
+1. In `Preparation`, translate VOC xml annotations to txt annotations
 
     `python3 voc2txt_annotation.py -name bdd100k_obj -input_dir D:/BDD100K/ -save data_txt` 
     
-3. Use K-means to generate the anchors 
+2. Use K-means to generate the anchors 
     
     - 9 anchors for 3 scale levels (32, 16, 8)
     - 3 anchors for each scale level
