@@ -163,7 +163,7 @@ if __name__ == '__main__':
     # base_dir = os.path.abspath(os.path.join(os.getcwd(), "../.."))
     # print('base directory: ', base_dir)
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_dir', type=str, default='/Users/babalia/Desktop/Applications/object_detection/yolov5_samples/data/voc', help='data directory')
+    parser.add_argument('--data_dir', type=str, default='G:\Datasets\yolov5_voc/voc', help='data directory')
     parser.add_argument('--class_name_dir', type=str, default='data_txt/voc_obj/voc_names.txt', help='class name dir')
     parser.add_argument('--output_dir', type=str, default='data_txt/voc_obj/data', help='output text directory')
     opt = parser.parse_args()

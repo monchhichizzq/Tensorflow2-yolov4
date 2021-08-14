@@ -30,7 +30,7 @@ from Models.yolov4 import yolov4
 from Models.tiny_yolov4 import tiny_yolov4
 
 # Loss
-from Loss.new_loss import yolo_loss
+from Loss.loss import yolo_loss
 
 # Callbacks
 from Callbacks.checkpoints import ModelCheckpoint
@@ -47,16 +47,16 @@ logger.setLevel(logging.DEBUG)
 
 
 config = {'training': True,
-          'mix': False,
+          'mix': True,
 
           # Hyperparameters
           'lr':1e-3,
-          'batch_size': 2,
+          'batch_size': 8,
           'input_shape': (416, 416, 3),
           'Cosine_scheduler':False,
           'mosaic': True,
           'epochs': 5000,
-          'plot':False,
+          'plot': False,
           'label_smoothing':0,
           'bg_zero': False,
 
@@ -72,12 +72,11 @@ config = {'training': True,
           # checkpoints
           'save_best_only': True,
           'save_weights_only': True,
-          'log_dir':'logs/yolov4_voc_weights_416/',
+          'log_dir':'logs/yolov4_voc_weights_416_fp32/',
 
           # MAP
           'map_plot':True,
           'map_command_line': 'python Callbacks/get_map.py',
-
 
           # Path
           'anno_train_txt': '../Preparation/data_txt/voc_obj/data/voc_train.txt',
@@ -191,12 +190,12 @@ if __name__ == "__main__":
                         arguments={'anchors': anchors, 
                                    'num_classes': num_classes, 
                                    'ignore_thresh': 0.5,
-                                   'label_smoothing': label_smoothing,
-                                   'normalize': True})(loss_input)
+                                   'label_smoothing': label_smoothing})(loss_input)
     # 构建了以图片数据和图片标签（y_true）为输入，模型损失（model_loss）为输出（y_pred）的模型 model
     model = Model(inputs=[model_body.input, *y_true], outputs=model_loss)
     logger.info('Inputs {}.'.format(model.input))
     logger.info('Output {}.'.format(model.output))
+    #  model.summary()
 
     # save
     log_dir = config['log_dir']
@@ -210,7 +209,7 @@ if __name__ == "__main__":
                                  save_best_only=config['save_best_only'],
                                  period=1)
 
-    reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=20, verbose=1)
+    reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=30, verbose=1)
 
     train_callbacks = [checkpoint, reduce_lr]
     val_callbacks = []
@@ -238,7 +237,7 @@ if __name__ == "__main__":
         model.fit(train_generator,
                   validation_data=val_generator,
                   epochs=config['epochs'],
-                  verbose=1,
+                  verbose=2,
                   callbacks=train_callbacks)
 
     else:

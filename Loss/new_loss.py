@@ -34,11 +34,11 @@ def yolo_loss(args, anchors, num_classes, ignore_thresh=.5, label_smoothing=0.1,
     y_true = args[num_layers:]
     yolo_outputs = args[:num_layers]
 
-    # for i in range(3):
-    #     y_true[i] = tf.cast(y_true[i], dtype=tf.float32)
-    #     yolo_outputs[i] = tf.cast(yolo_outputs[i], dtype=tf.float32)
-    #     tf.print('y_true:', (y_true[i].shape))
-    #     tf.print('y_pred:', (yolo_outputs[i].shape))
+    for i in range(3):
+        y_true[i] = tf.cast(y_true[i], dtype=tf.float32)
+        yolo_outputs[i] = tf.cast(yolo_outputs[i], dtype=tf.float32)
+        print('y_true:', (y_true[i].shape))
+        print('y_pred:', (yolo_outputs[i].shape))
 
     #-----------------------------------------------------------#
     #   13x13的特征层对应的anchor是[142, 110], [192, 243], [459, 401]
@@ -135,7 +135,7 @@ def yolo_loss(args, anchors, num_classes, ignore_thresh=.5, label_smoothing=0.1,
         #-----------------------------------------------------------#
         # _, ignore_mask = K.control_flow_ops.while_loop(lambda b,*args: b<m, loop_body, [0, ignore_mask])
         _, ignore_mask = tf.while_loop(lambda b, *args: b < m, loop_body, [0, ignore_mask])
-        # tf.print('ignore_mask', ignore_mask)
+        # print('ignore_mask', ignore_mask)
 
         #-----------------------------------------------------------#
         #   ignore_mask用于提取出作为负样本的特征点
@@ -186,9 +186,9 @@ def yolo_loss(args, anchors, num_classes, ignore_thresh=.5, label_smoothing=0.1,
     else:
         loss = loss / mf
 
-    # batch_loss = tf.reduce_mean(loss, name='batch_loss')
+    #batch_loss = tf.reduce_mean(loss, name='batch_loss')
     # tf.compat.v1.losses.add_loss(batch_loss)
-
+    tf.print('loss', loss)
     return loss
 
 

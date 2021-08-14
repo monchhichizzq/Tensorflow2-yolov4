@@ -11,7 +11,7 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description='This a script using K-means to generate the anchors for the target dataset')
     parser.add_argument('-size', default=(416, 416), help="Input image size", action="store_true")
     parser.add_argument('-anchors_num',default=9, help="Proposed anchor numbers", action="store_true") #9
-    parser.add_argument('-path', default='/Users/babalia/Desktop/Applications/object_detection/yolov5_samples/data/voc/train/VOCdevkit/VOC2012/Annotations', help="Read dataset annotations", action="store_true")
+    parser.add_argument('-path', default='G:\Datasets\yolov5_voc/voc/train\VOCdevkit\VOC2012\Annotations', help="Read dataset annotations", action="store_true")
     parser.add_argument('-save_path', default="data_txt/voc_obj/yolov4_anchors_416_416.txt", help="Txt file",
                         action="store_true")
     args = parser.parse_args()
@@ -23,6 +23,8 @@ def parse_arguments():
 
 # voc2012 416 x 416 
 # 14,27, 34,47, 42,99, 67,186, 104,101, 122,261, 212,326, 232,170, 363,361
+# 15,24, 28,59, 48,133, 67,63, 88,222, 128,123, 164,307, 266,193, 344,366
+# 14,26, 29,48, 37,112, 67,65, 74,180, 128,117, 143,279, 255,184, 336,345
 # voc2012 608 x 608
 # 23,37, 40,97, 72,194, 86,72, 132,322, 169,162, 243,451, 364,267, 503,529
 
