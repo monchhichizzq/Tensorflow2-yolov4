@@ -20,6 +20,8 @@ class ModelCheckpoint(Callback):
         self.save_weights_only = save_weights_only
         self.period = period
         self.epochs_since_last_save = 0
+        self.history = []
+        self.history_save_file = 'train_history.npy'
 
         if mode not in ['auto', 'min', 'max']:
             warnings.warn('ModelCheckpoint mode %s is unknown, '
@@ -44,6 +46,10 @@ class ModelCheckpoint(Callback):
     def on_epoch_end(self, epoch, logs=None):
         logs = logs or {}
         print(logs)
+        train_loss, val_loss = logs['loss'], logs['val_loss']
+        self.history.append([epoch, train_loss, val_loss])
+        np.save(self.history_save_file, self.history)
+
         self.epochs_since_last_save += 1
         if self.epochs_since_last_save >= self.period:
             self.epochs_since_last_save = 0
