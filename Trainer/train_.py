@@ -72,7 +72,7 @@ config = {'training': True,
           # checkpoints
           'save_best_only': True,
           'save_weights_only': True,
-          'log_dir':'logs/yolov4_voc_weights_416_fp32/',
+          'log_dir':'logs/yolov4_voc_weights_416_fp16/',
 
           # MAP
           'map_plot':True,
