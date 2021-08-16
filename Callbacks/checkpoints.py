@@ -21,7 +21,7 @@ class ModelCheckpoint(Callback):
         self.period = period
         self.epochs_since_last_save = 0
         self.history = []
-        self.history_save_file = 'train_history.npy'
+        self.history_save_file = 'train_history_sgd.npy'
 
         if mode not in ['auto', 'min', 'max']:
             warnings.warn('ModelCheckpoint mode %s is unknown, '
@@ -43,11 +43,16 @@ class ModelCheckpoint(Callback):
                 self.monitor_op = np.less
                 self.best = np.Inf
 
+    # def on_train_batch_end(self, batch, logs=None):
+    #     current_lr = self.model.optimizer.lr.numpy()
+    #     print('current lr: ', current_lr, batch)
+
     def on_epoch_end(self, epoch, logs=None):
         logs = logs or {}
-        print(logs)
+        current_lr = self.model.optimizer.lr.numpy()
+        print('current lr: ', current_lr)
         train_loss, val_loss = logs['loss'], logs['val_loss']
-        self.history.append([epoch, train_loss, val_loss])
+        self.history.append([epoch, train_loss, val_loss, current_lr])
         np.save(self.history_save_file, self.history)
 
         self.epochs_since_last_save += 1

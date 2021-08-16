@@ -18,7 +18,7 @@ import tensorflow as tf
 import tensorflow.keras.backend as K
 from tensorflow.keras.layers import Input, Lambda
 from tensorflow.keras.models import Model
-from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.optimizers import Adam, SGD
 from tensorflow.keras.callbacks import TensorBoard, ReduceLROnPlateau, EarlyStopping
 gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
 for gpu in gpus:
@@ -50,14 +50,14 @@ config = {'training': True,
           'mix': True,
 
           # Hyperparameters
-          'lr':1e-3,
+          'lr':1e-3, # adam 1e-3
           'batch_size': 8,
           'input_shape': (416, 416, 3),
           'Cosine_scheduler':False,
           'mosaic': True,
           'epochs': 5000,
           'plot': False,
-          'label_smoothing':0,
+          'label_smoothing':0.1,
           'bg_zero': False,
 
           # Model
@@ -72,7 +72,7 @@ config = {'training': True,
           # checkpoints
           'save_best_only': True,
           'save_weights_only': True,
-          'log_dir':'logs/yolov4_voc_weights_416_fp16/',
+          'log_dir':'logs/yolov4_voc_weights_416_fp16_adam/',
 
           # MAP
           'map_plot':True,
@@ -209,7 +209,7 @@ if __name__ == "__main__":
                                  save_best_only=config['save_best_only'],
                                  period=1)
 
-    reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.5, patience=30, verbose=1)
+    reduce_lr = ReduceLROnPlateau(monitor='val_loss', factor=0.1, patience=30, verbose=1)
 
     train_callbacks = [checkpoint, reduce_lr]
     val_callbacks = []
@@ -223,11 +223,13 @@ if __name__ == "__main__":
 
 
     learning_rate_base = config['lr']
+    opt = Adam(learning_rate_base)
+    # opt = SGD(learning_rate=learning_rate_base, momentum=0.9)
 
     # 这纯粹是一种python语法，可以看成一个函数 输入(y_true, y_pred) 返回 y_pred
     # https://zhuanlan.zhihu.com/p/112885878
     # 解释：模型compile时传递的是自定义的loss，而把loss写成一个层融合到model里面后，y_pred就是loss。自定义损失函数规定要以y_true, y_pred为参数。
-    model.compile(optimizer=Adam(learning_rate_base), loss={'yolo_loss': lambda y_true, y_pred: y_pred})
+    model.compile(optimizer=opt, loss={'yolo_loss': lambda y_true, y_pred: y_pred})
 
     if config['training']:
         # check_layer_dtype(model)
