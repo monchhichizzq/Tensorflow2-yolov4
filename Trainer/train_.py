@@ -41,6 +41,13 @@ from Preprocess.data_loader import Yolo_DataGenerator
 # utils
 from Utils.utils import get_classes, get_anchors
 
+'''
+gpus = tf.config.experimental.list_physical_devices(device_type='GPU')
+for gpu in gpus:
+    tf.config.experimental.set_memory_growth(gpu, True)
+
+'''
+
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger('Backbone - CSPdarknet53')
 logger.setLevel(logging.DEBUG)

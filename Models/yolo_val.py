@@ -29,16 +29,15 @@ def yolo_correct_boxes(box_xy, box_wh, input_shape, image_shape):
 
     box_mins = box_yx - (box_hw / 2.)
     box_maxes = box_yx + (box_hw / 2.)
-    boxes =  tf.concatenate([
+    boxes =  K.concatenate([
         box_mins[..., 0:1],  # y_min
         box_mins[..., 1:2],  # x_min
         box_maxes[..., 0:1],  # y_max
         box_maxes[..., 1:2]  # x_max
     ])
 
-    boxes *= tf.concatenate([image_shape, image_shape])
+    boxes *= K.concatenate([image_shape, image_shape])
     return boxes
-
 
 #---------------------------------------------------#
 #   获取每个box和它的得分
@@ -69,7 +68,7 @@ def yolo_boxes_and_scores(feats, anchors, num_classes, input_shape, image_shape,
         input_shape = tf.cast(input_shape, K.dtype(box_yx))
         image_shape = tf.cast(image_shape, K.dtype(box_yx))
 
-        boxes =  tf.concatenate([
+        boxes =  K.concatenate([
             box_mins[..., 0:1] * image_shape[0],  # y_min
             box_mins[..., 1:2] * image_shape[1],  # x_min
             box_maxes[..., 0:1] * image_shape[0],  # y_max

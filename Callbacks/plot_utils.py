@@ -10,7 +10,7 @@ def generate_colors(class_names):
     colors = list(map(lambda x: (int(x[0] * 255), int(x[1] * 255), int(x[2] * 255)), colors))
     return colors
 
-def plot_one_box(img, coord, label=None, color=None, line_thickness=None):
+def plot_one_box(img, coord, class_names, label=None, color=None, line_thickness=None):
     '''
     coord: [x_min, y_min, x_max, y_max] format coordinates.
     img: img to plot on.
@@ -19,8 +19,9 @@ def plot_one_box(img, coord, label=None, color=None, line_thickness=None):
     line_thickness: int. rectangle line thickness.
     '''
 
-    tl = line_thickness or int(round(0.0005 * max(img.shape[0:2])))  # line thickness
-    color = color or [random.randint(0, 255) for _ in range(len(self.class_names))]
+    tl = line_thickness or int(round(0.005 * max(img.shape[0:2])))  # line thickness
+    # color = color or [random.randint(0, 255) for _ in range(len(self.class_names))]
+    color = color or [random.randint(0, 255) for _ in range(class_names)]
     c1, c2 = (int(coord[0]), int(coord[1])), (int(coord[2]), int(coord[3]))
     cv2.rectangle(img, c1, c2, color, thickness=tl)
     if label:

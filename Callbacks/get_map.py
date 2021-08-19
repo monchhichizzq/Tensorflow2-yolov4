@@ -4,6 +4,7 @@
 # @FileName: get_map.py
 # @Software: PyCharm
 
+# python3 get_map.py --result_path '../Eval/input'
 
 import glob
 import json
@@ -28,7 +29,8 @@ parser.add_argument('-q', '--quiet', help="minimalistic console output.", action
 parser.add_argument('-i', '--ignore', nargs='+', type=str, help="ignore a list of classes.")
 # argparse receiving list of classes with specific IoU (e.g., python main.py --set-class-iou person 0.7)
 parser.add_argument('--set-class-iou', nargs='+', type=str, help="set IoU for a specific class.")
-parser.add_argument('--save_path', default='results', type=str, help="Save the files for results")
+parser.add_argument('--save_path', default='results_2', type=str, help="Save the files for results")
+parser.add_argument('--result_path', default='results', type=str, help="input directory contains ground truth and prediction")
 args = parser.parse_args()
 
 '''
@@ -54,14 +56,16 @@ if args.set_class_iou is not None:
 # make sure that the cwd() is the location of the python script (so that every path makes sense)
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-# GT_PATH = os.path.join(os.getcwd(), 'input', 'ground-truth')
-# DR_PATH = os.path.join(os.getcwd(), 'input', 'detection-results')
-# # if there are no images then no animation can be shown
-# IMG_PATH = os.path.join(os.getcwd(), 'input', 'images-optional')
-GT_PATH = os.path.join(os.getcwd(), '../input', 'ground-truth')
-DR_PATH = os.path.join(os.getcwd(), '../input', 'detection-results')
-# # if there are no images then no animation can be shown
-IMG_PATH = os.path.join(os.getcwd(), '../input', 'images-optional')
+GT_PATH = os.path.join(args.result_path, 'ground-truth')
+DR_PATH = os.path.join(args.result_path, 'detection-results')
+# if there are no images then no animation can be shown
+IMG_PATH = os.path.join(args.result_path, 'images-optional')
+# GT_PATH = os.path.join(os.getcwd(), '../input', 'ground-truth')
+# DR_PATH = os.path.join(os.getcwd(), '../input', 'detection-results')
+# # # if there are no images then no animation can be shown
+# IMG_PATH = os.path.join(os.getcwd(), '../input', 'images-optional')
+
+
 
 
 if os.path.exists(IMG_PATH): 
@@ -352,17 +356,17 @@ def draw_plot_func(dictionary, n_classes, window_title, plot_title, x_label, out
 """
 TEMP_FILES_PATH = ".temp_files"
 if not os.path.exists(TEMP_FILES_PATH): # if it doesn't exist already
-    os.makedirs(TEMP_FILES_PATH)
+    os.makedirs(TEMP_FILES_PATH, exist_ok=True)
 results_files_path = args.save_path
-if os.path.exists(results_files_path): # if it exist already
-    # reset the results directory
-    shutil.rmtree(results_files_path)
+# if os.path.exists(results_files_path): # if it exist already
+#     # reset the results directory
+#     shutil.rmtree(results_files_path)
 
-os.makedirs(results_files_path)
+os.makedirs(results_files_path, exist_ok=True)
 if draw_plot:
-    os.makedirs(os.path.join(results_files_path, "classes"))
+    os.makedirs(os.path.join(results_files_path, "classes"), exist_ok=True)
 if show_animation:
-    os.makedirs(os.path.join(results_files_path, "images", "detections_one_by_one"))
+    os.makedirs(os.path.join(results_files_path, "images", "detections_one_by_one"), exist_ok=True)
 
 """
  ground-truth
@@ -410,6 +414,10 @@ for txt_file in ground_truth_files_list:
         # check if class is in the ignore list, if yes skip
         if class_name in args.ignore:
             continue
+        # top = str(int(top) - 5)
+        # left = str(int(left) - 5)
+        # bottom = str(int(bottom) + 5)
+        # right = str(int(right) + 5)
         bbox = left + " " + top + " " + right + " " +bottom
         if is_difficult:
                 bounding_boxes.append({"class_name":class_name, "bbox":bbox, "used":False, "difficult":True})

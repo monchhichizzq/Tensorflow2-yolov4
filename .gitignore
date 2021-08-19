@@ -8,7 +8,7 @@ yolov4.pdf
 yolov4_loss.pptx
 logs/
 input
-Demo/
+
 results/
 .DS_Store
 __pycache__
@@ -22,3 +22,6 @@ images
 train_mask.py
 train.py
 data
+pretrained_models
+yolo_example.py
+yolo_example_opencv.py
