@@ -53,7 +53,7 @@ class Train_Process_Visualizer():
         plt.plot(self.epochs, self.val_losses, label='val_loss')
         plt.legend()
         plt.grid()
-        plt.ylim(0, 200)
+        plt.ylim(0, 50)
         plt.xlabel('Epoch')
         plt.ylabel('Loss')
         plt.savefig(save_fig, dpi=600)
@@ -70,7 +70,7 @@ class Train_Process_Visualizer():
 
 if __name__ == '__main__':
     
-    v = Train_Process_Visualizer(save_folder = '../Trainer/logs',
+    v = Train_Process_Visualizer(save_folder = '../Trainer',
                                 save_npy = 'train_history_sgd.npy',)
     v(target_metric = 'losses')
     v(target_metric = 'lr')
